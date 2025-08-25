@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aacenc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc_pns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aacEnc_ram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aacEnc_rom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc_tns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="abs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="abs_x86.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adj_thr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adj_thr_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="band_nrg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_cnt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_sbr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitenc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="block_switch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="channel_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chaosmeasure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clz_x86.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cmondata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code_env.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common_fix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cplx_mul.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dyn_bits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="env_bit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="env_est.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FDK_archdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FDK_audio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FDK_bitbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FDK_bitstream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FDK_hybrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FDK_lpc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FDK_tools_rom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FDK_trigFcts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fft.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fft_rad2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fixmadd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fixminmax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fixmul.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fixmul_x86.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fixpoint_math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fixpoint_math_x86.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fram_gen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="genericStds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="grp_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intensity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="invf_est.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="line_pe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="machine_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mdct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mh_det.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ms_stereo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nf_est.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="noisedet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pns_func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pnsparam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pre_echo_control.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ps_bitenc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ps_const.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ps_encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ps_main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="psy_configuration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="psy_const.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="psy_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="psy_main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="qc_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="qc_main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="qmf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resampler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_encoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sbrenc_freq_sca.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sbrenc_ram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sbrenc_rom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scramble.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_estim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="spreading.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="syslib_channelMapDescr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tns_func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ton_corr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tonality.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tp_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tpenc_lib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tran_det.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bandwidth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aacenc_pns.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aacEnc_ram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aacEnc_rom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aacenc_tns.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="band_nrg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="block_switch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="channel_map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chaosmeasure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FDK_lpc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FDK_tools_rom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FDK_trigFcts.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fft_rad2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fixpoint_math.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="genericStds.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="grp_data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="intensity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mdct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ms_stereo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="noisedet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pnsparam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pre_echo_control.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="psy_configuration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="psy_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spreading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="syslib_channelMapDescr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tonality.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bandwidth.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aacenc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -209,7 +209,7 @@ enum
    */
   MAX_PRED_SFB          = 40,   /* 48 kHz only, now obsolete */
   MAX_PRED_BINS         = 672,
-
+#ifndef FDK_AUDIO_H
   ID_SCE                = 0,
   ID_CPE,
   ID_CCE,
@@ -218,7 +218,7 @@ enum
   ID_PCE,
   ID_FIL,
   ID_END,
-
+#endif
   /* PLL's don't like idle channels! */
   FILL_VALUE            = 0x55,
 

@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "obj_streamfile", "obj_streamfile\obj_streamfile.vcxproj", "{4B1A3678-0E4B-499C-B579-D8EA9B57294C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "obj_tf_enc", "obj_tf_enc\obj_tf_enc.vcxproj", "{D676EE1D-D1EF-4992-BFC5-35FB7BEB6342}"
@@ -19,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usacEnc", "usacEnc.vcxproj"
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libisomedia", "..\..\..\..\tools\IsoLib\libisomediafile\w32\libisomediafile\VS2012\libisomedia.vcxproj", "{28F7076E-930E-11E3-AB6A-003048FFD893}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fdk_psy", "..\fdk_psy\fdk_psy.vcxproj", "{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,8 +96,19 @@ Global
 		{28F7076E-930E-11E3-AB6A-003048FFD893}.Release|Win32.Build.0 = Release|Win32
 		{28F7076E-930E-11E3-AB6A-003048FFD893}.Release|x64.ActiveCfg = Release|x64
 		{28F7076E-930E-11E3-AB6A-003048FFD893}.Release|x64.Build.0 = Release|x64
+		{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}.Debug|Win32.Build.0 = Debug|Win32
+		{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}.Debug|x64.ActiveCfg = Debug|x64
+		{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}.Debug|x64.Build.0 = Debug|x64
+		{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}.Release|Win32.ActiveCfg = Release|Win32
+		{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}.Release|Win32.Build.0 = Release|Win32
+		{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}.Release|x64.ActiveCfg = Release|x64
+		{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EF2CDCC-CCCE-4DEB-A46A-2D7F3E4C04B7}
 	EndGlobalSection
 EndGlobal

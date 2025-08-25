@@ -53,6 +53,9 @@ derivative works.
 Copyright (c) ISO/IEC 2008.
 
 *******************************************************************************/
+#include "maro.h"
+
+
 extern "C" {
 #include <limits.h>
 #include <math.h>
@@ -115,6 +118,12 @@ extern "C" {
 #include "sony_pvcenc_prepro.h"
 #endif /* SONY_PVC */
 }
+#if fdk_psy
+#include "psy_main.h"
+#include "aacenc.h"
+#include "aacEnc_ram.h"
+#endif
+
 /* declarations */
 static int EncUsac_data_free(HANDLE_ENCODER_DATA data);
 static int EncUsac_tns_free(HANDLE_ENCODER_DATA data);
@@ -124,6 +133,8 @@ static int EncUsac_tns_free(HANDLE_ENCODER_DATA data);
 static SBR_CHAN sbrChan[MAX_TIME_CHANNELS];
 extern"C" {  int samplFreqIndex[];
  extern long UsacSamplingFrequencyTable[32]; }
+
+
 
 #ifdef __RESTRICT
 #define restrict _Restrict
@@ -898,8 +909,11 @@ static int EncUsac_window_init(HANDLE_ENCODER_DATA data, int wshape_flag)
   for (i_ch=0; i_ch<data->channels; i_ch++) {
     data->windowSequence[i_ch] = ONLY_LONG_SEQUENCE;
     if (wshape_flag == 1) {
+
       data->windowShapePrev[i_ch] = WS_DOLBY;
+
     } else {
+
       data->windowShapePrev[i_ch] = WS_FHG;
     }
   }
@@ -2274,7 +2288,19 @@ int EncUsacFrame(const ENCODER_DATA_TYPE  input,
     }
   }
 #endif
-
+#if fdk_psy
+  HANDLE_AAC_ENC* hAacEnc;
+  AAC_ENCODER_ERROR ErrorStatus;
+  CHANNEL_MAPPING* cm = NULL;
+  FDKaacEnc_Open(hAacEnc,2,2,1);
+  //ErrorStatus = FDKaacEnc_DetermineBandWidth(
+  //    config->bandWidth, config->bitRate - config->ancDataBitRate,
+  //    hAacEnc->bitrateMode, config->sampleRate, config->framelength, cm,
+  //    hAacEnc->encoderMode, &hAacEnc->config->bandWidth);
+  //ErrorStatus = FDKaacEnc_psyInit(hAacEnc->psyKernel, hAacEnc->psyOut,
+  //    hAacEnc->maxFrames, hAacEnc->maxChannels,
+  //    config->audioObjectType, cm);
+#endif
 
   for ( i_ch = 0 ; i_ch < data->channels ; i_ch++ ) {
     data->window_size_samples[i_ch]=data->block_size_samples;

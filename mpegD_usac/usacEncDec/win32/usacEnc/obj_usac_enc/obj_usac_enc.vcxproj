@@ -158,7 +158,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\..\src_frame;..\..\..\src_frame_enc;..\..\..\src_usac_enc;..\..\..\src_usac;..\..\..\src_tf;..\..\..\src_tf_enc;..\..\..\..\mp4spatialenc\include;..\..\..\..\mp4spatialenc\src;..\..\..\..\mp4spatialdec\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src_frame;..\..\..\src_frame_enc;..\..\..\src_usac_enc;..\..\..\src_usac;..\..\..\src_tf;..\..\..\src_tf_enc;..\..\..\..\mp4spatialenc\include;..\..\..\..\mp4spatialenc\src;..\..\..\..\mp4spatialdec\src;..\..\fdk_psy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SONY_PVC;_CONSOLE;CT_SBR;USE_AFSP;PNS;CORRIGENDUM1;WIN32;_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>false</StringPooling>
       <MinimalRebuild>true</MinimalRebuild>

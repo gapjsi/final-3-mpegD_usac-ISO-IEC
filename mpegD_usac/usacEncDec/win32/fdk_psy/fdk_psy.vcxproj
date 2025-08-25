@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b2f87a73-0d6b-4eb2-b4d0-5939475f6161}</ProjectGuid>
+    <RootNamespace>fdkpsy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="aacenc.h" />
+    <ClInclude Include="aacenc_pns.h" />
+    <ClInclude Include="aacEnc_ram.h" />
+    <ClInclude Include="aacEnc_rom.h" />
+    <ClInclude Include="aacenc_tns.h" />
+    <ClInclude Include="abs.h" />
+    <ClInclude Include="abs_x86.h" />
+    <ClInclude Include="adj_thr.h" />
+    <ClInclude Include="adj_thr_data.h" />
+    <ClInclude Include="bandwidth.h" />
+    <ClInclude Include="band_nrg.h" />
+    <ClInclude Include="bitenc.h" />
+    <ClInclude Include="bit_cnt.h" />
+    <ClInclude Include="bit_sbr.h" />
+    <ClInclude Include="block_switch.h" />
+    <ClInclude Include="channel_map.h" />
+    <ClInclude Include="chaosmeasure.h" />
+    <ClInclude Include="clz.h" />
+    <ClInclude Include="clz_x86.h" />
+    <ClInclude Include="cmondata.h" />
+    <ClInclude Include="code_env.h" />
+    <ClInclude Include="common_fix.h" />
+    <ClInclude Include="cplx_mul.h" />
+    <ClInclude Include="dct.h" />
+    <ClInclude Include="dyn_bits.h" />
+    <ClInclude Include="env_bit.h" />
+    <ClInclude Include="env_est.h" />
+    <ClInclude Include="FDK_archdef.h" />
+    <ClInclude Include="FDK_audio.h" />
+    <ClInclude Include="FDK_bitbuffer.h" />
+    <ClInclude Include="FDK_bitstream.h" />
+    <ClInclude Include="FDK_hybrid.h" />
+    <ClInclude Include="FDK_lpc.h" />
+    <ClInclude Include="FDK_tools_rom.h" />
+    <ClInclude Include="FDK_trigFcts.h" />
+    <ClInclude Include="fft.h" />
+    <ClInclude Include="fft_rad2.h" />
+    <ClInclude Include="fixmadd.h" />
+    <ClInclude Include="fixminmax.h" />
+    <ClInclude Include="fixmul.h" />
+    <ClInclude Include="fixmul_x86.h" />
+    <ClInclude Include="fixpoint_math.h" />
+    <ClInclude Include="fixpoint_math_x86.h" />
+    <ClInclude Include="fram_gen.h" />
+    <ClInclude Include="genericStds.h" />
+    <ClInclude Include="grp_data.h" />
+    <ClInclude Include="intensity.h" />
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="invf_est.h" />
+    <ClInclude Include="line_pe.h" />
+    <ClInclude Include="machine_type.h" />
+    <ClInclude Include="maro.h" />
+    <ClInclude Include="mdct.h" />
+    <ClInclude Include="mh_det.h" />
+    <ClInclude Include="ms_stereo.h" />
+    <ClInclude Include="nf_est.h" />
+    <ClInclude Include="noisedet.h" />
+    <ClInclude Include="pnsparam.h" />
+    <ClInclude Include="pns_func.h" />
+    <ClInclude Include="pre_echo_control.h" />
+    <ClInclude Include="psy_configuration.h" />
+    <ClInclude Include="psy_const.h" />
+    <ClInclude Include="psy_data.h" />
+    <ClInclude Include="psy_main.h" />
+    <ClInclude Include="ps_bitenc.h" />
+    <ClInclude Include="ps_const.h" />
+    <ClInclude Include="ps_encode.h" />
+    <ClInclude Include="ps_main.h" />
+    <ClInclude Include="qc_data.h" />
+    <ClInclude Include="qc_main.h" />
+    <ClInclude Include="qmf.h" />
+    <ClInclude Include="resampler.h" />
+    <ClInclude Include="sbr.h" />
+    <ClInclude Include="sbrenc_freq_sca.h" />
+    <ClInclude Include="sbrenc_ram.h" />
+    <ClInclude Include="sbrenc_rom.h" />
+    <ClInclude Include="sbr_def.h" />
+    <ClInclude Include="sbr_encoder.h" />
+    <ClInclude Include="sbr_misc.h" />
+    <ClInclude Include="scale.h" />
+    <ClInclude Include="scramble.h" />
+    <ClInclude Include="sf_estim.h" />
+    <ClInclude Include="spreading.h" />
+    <ClInclude Include="syslib_channelMapDescr.h" />
+    <ClInclude Include="tns_func.h" />
+    <ClInclude Include="tonality.h" />
+    <ClInclude Include="ton_corr.h" />
+    <ClInclude Include="tpenc_lib.h" />
+    <ClInclude Include="tp_data.h" />
+    <ClInclude Include="transform.h" />
+    <ClInclude Include="tran_det.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aacenc.cpp" />
+    <ClCompile Include="aacenc_pns.cpp" />
+    <ClCompile Include="aacEnc_ram.cpp" />
+    <ClCompile Include="aacEnc_rom.cpp" />
+    <ClCompile Include="aacenc_tns.cpp" />
+    <ClCompile Include="bandwidth.cpp" />
+    <ClCompile Include="band_nrg.cpp" />
+    <ClCompile Include="block_switch.cpp" />
+    <ClCompile Include="channel_map.cpp" />
+    <ClCompile Include="chaosmeasure.cpp" />
+    <ClCompile Include="dct.cpp" />
+    <ClCompile Include="FDK_lpc.cpp" />
+    <ClCompile Include="FDK_tools_rom.cpp" />
+    <ClCompile Include="FDK_trigFcts.cpp" />
+    <ClCompile Include="fft.cpp" />
+    <ClCompile Include="fft_rad2.cpp" />
+    <ClCompile Include="fixpoint_math.cpp" />
+    <ClCompile Include="genericStds.cpp" />
+    <ClCompile Include="grp_data.cpp" />
+    <ClCompile Include="intensity.cpp" />
+    <ClCompile Include="mdct.cpp" />
+    <ClCompile Include="ms_stereo.cpp" />
+    <ClCompile Include="noisedet.cpp" />
+    <ClCompile Include="pnsparam.cpp" />
+    <ClCompile Include="pre_echo_control.cpp" />
+    <ClCompile Include="psy_configuration.cpp" />
+    <ClCompile Include="psy_main.cpp" />
+    <ClCompile Include="scale.cpp" />
+    <ClCompile Include="spreading.cpp" />
+    <ClCompile Include="syslib_channelMapDescr.cpp" />
+    <ClCompile Include="tonality.cpp" />
+    <ClCompile Include="transform.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

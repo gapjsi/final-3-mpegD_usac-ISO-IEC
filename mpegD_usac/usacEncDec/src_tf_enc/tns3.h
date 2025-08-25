@@ -76,7 +76,7 @@ typedef struct {
   TNS_FILTER_DATA tnsFilter[3];	                /* TNS filters */
 } TNS_WINDOW_DATA;
 
-
+#ifndef AACENC_TNS_H
 typedef struct {
   int tnsDataPresent;
   int tnsMinBandNumberLong;
@@ -87,7 +87,7 @@ typedef struct {
   int tnsMaxOrderShort;
   TNS_WINDOW_DATA windowData[NSHORT];	/* TNS data per window */
 } TNS_INFO;
-
+#endif
 
 
 /*************************/

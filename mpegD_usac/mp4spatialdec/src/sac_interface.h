@@ -195,6 +195,7 @@ enum
      MAX_PRED_SFB	= 40,	
      MAX_PRED_BINS	= 672,
 
+#ifndef _interface_h_
     ID_SCE 		= 0,
     ID_CPE,
     ID_CCE,
@@ -203,7 +204,7 @@ enum
     ID_PCE,
     ID_FIL,
     ID_END,
-
+#endif
     ID_HDR,   
     ID_NUL,
     ID_2ND,

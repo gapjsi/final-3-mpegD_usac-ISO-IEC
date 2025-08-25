@@ -1,1 +1,98 @@
-﻿
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  transfo.cpp
+  tns3.cpp
+  statistics_dummy.cpp
+  sony_pvclib.cpp
+  sony_pvcenc.cpp
+  son_pqf_common.cpp
+  son_pqf.cpp
+  son_gc_pack.cpp
+  son_gc_modifier.cpp
+  son_gc_etc_enc.cpp
+  son_gc_detectreset.cpp
+  son_gc_detecter.cpp
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(122,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(123,32): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(126,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(128,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(134,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(141,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  son_gc_common.cpp
+  scal_enc_frame.cpp
+  sam_faencode.cpp
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\sam_faencode.cpp(94,42): warning C4838: 从“unsigned int”转换到“long”需要收缩转换
+  sam_encode_frame.cpp
+  sam_encode_bsac.cpp
+  sam_bit_buffer.cpp
+  resilience.cpp
+  psych.cpp
+  正在生成代码...
+  正在编译...
+  ntt_zerod.cpp
+  ntt_win_sw.cpp
+  ntt_vq_decoder.cpp
+  ntt_vq_coder.cpp
+  ntt_vex_pn.cpp
+  ntt_vec_lenp.cpp
+  ntt_tools.cpp
+  ntt_TfInit.cpp
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf\ntt_TfInit.cpp(288,47): warning C4244: “=”: 从“long”转换到“short”，可能丢失数据
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf\ntt_TfInit.cpp(292,47): warning C4244: “=”: 从“long”转换到“short”，可能丢失数据
+  ntt_tf_requantize_spectrum.cpp
+  ntt_tf_quantize_spectrum.cpp
+  ntt_tf_proc_spectrum_d.cpp
+  ntt_tf_proc_spectrum.cpp
+  ntt_tf_perceptual_model.cpp
+  ntt_set_isp.cpp
+  ntt_scale_vq_decoder.cpp
+  ntt_scale_vq_coder.cpp
+  ntt_scale_tf_proc_spectrum_d.cpp
+  ntt_scale_init.cpp
+  ntt_scale_dec_bark_env.cpp
+  ntt_scale_coder.cpp
+  正在生成代码...
+  正在编译...
+  ntt_redec.cpp
+  ntt_post_process.cpp
+  ntt_mulawinv.cpp
+  ntt_movdd.cpp
+  ntt_lsptowt_int.cpp
+  ntt_lsp_decw.cpp
+  ntt_get_code.cpp
+  ntt_get_cdbk.cpp
+  ntt_fwex.cpp
+  ntt_extend_pitch.cpp
+  ntt_denormalizer_spectrum.cpp
+  ntt_dec_sq_gain.cpp
+  ntt_dec_pitch.cpp
+  ntt_dec_pit_seq.cpp
+  ntt_dec_pgain.cpp
+  ntt_dec_lpc_spectrum_inv.cpp
+  ntt_dec_gain.cpp
+  ntt_dec_bark_env.cpp
+  ntt_cnst_chk.cpp
+  ntt_check.cpp
+  正在生成代码...
+  正在编译...
+  ntt_BitPack.cpp
+  nok_pitch.cpp
+  nok_ltp_enc.cpp
+  nok_bwp_enc.cpp
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\nok_bwp_enc.cpp(676,35): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  ms.cpp
+  mat_scale_tf_requantize_spectrum.cpp
+  mat_scale_set_shift_para.cpp
+  imdct.cpp
+  enc_tf.cpp
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\enc_tf.cpp(488,40): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\enc_tf.cpp(487,23): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\enc_tf.cpp(539,31): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  decdata.cpp
+  ct_sbr.cpp
+  ct_polyphase_enc.cpp
+  ct_freqsca.cpp
+  bitmux.cpp
+  aac_tools.cpp
+  aac_qc.cpp
+  正在生成代码...
+  obj_tf_enc.vcxproj -> C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\usacEnc\lib\x64_Debug\obj_tf_enc.lib
