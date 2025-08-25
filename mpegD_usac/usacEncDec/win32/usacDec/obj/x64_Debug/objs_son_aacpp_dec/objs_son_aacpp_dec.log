@@ -1,0 +1,9 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  son_pqf_common.c
+  son_ipqf.c
+  son_gc_unpack.c
+  son_gc_etc.c
+  son_gc_compensate.c
+  son_gc_common.c
+  正在生成代码...
+  objs_son_aacpp_dec.vcxproj -> C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\lib\x64_Debug\objs_son_aacpp_dec.lib

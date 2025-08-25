@@ -1,0 +1,17 @@
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_envcalc.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_envcalc.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_envdec.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_envdec.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_envextr.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_envextr.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_freqsca.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_freqsca.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_hfgen.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_hfgen.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_polyphase.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_polyphase.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_sbrbitb.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_sbrbitb.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_sbrcrc.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_sbrcrc.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_sbrdec.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_sbrdec.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\ct_sbrdecoder.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\ct_sbrdecoder.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\dec_tf.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\dec_tf.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\HFgen_preFlat.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\HFgen_preFlat.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\mod_buf.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\mod_buf.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\scal_dec_frame.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\scal_dec_frame.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\sony_pvcdec.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\sony_pvcdec.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\sony_pvclib.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\sony_pvclib.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\tvqaudecode.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_dec_tf\tvqaudecode.obj

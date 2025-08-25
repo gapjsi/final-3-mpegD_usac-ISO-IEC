@@ -1,0 +1,11 @@
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\adif.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\adif.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\audio.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\audio.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\austream.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\austream.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\bitstream.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\cmdline.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\cmdline.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\common_m4a.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\common_m4a.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\fir_filt.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\fir_filt.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\flex_mux.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\flex_mux.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\spatial_bitstreamreader.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\spatial_bitstreamreader.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\usac_config.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\usac_config.obj
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\vector_ops.c;C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\obj\x64_Debug\objs_com\vector_ops.obj

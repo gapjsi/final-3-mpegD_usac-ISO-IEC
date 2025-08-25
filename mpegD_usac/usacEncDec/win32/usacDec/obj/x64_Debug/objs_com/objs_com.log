@@ -1,0 +1,62 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  vector_ops.c
+  usac_config.c
+  spatial_bitstreamreader.c
+  flex_mux.c
+  fir_filt.c
+  common_m4a.c
+  cmdline.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\cmdline.c(397,43): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\cmdline.c(422,23): warning C4477: “fprintf”: 格式字符串“%-*s”需要类型“int”的参数，但可变参数 4 拥有了类型“size_t”
+  C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\cmdline.c(422,23):
+  此参数用作字段宽度
+  
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\cmdline.c(489,12): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\cmdline.c(569,18): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\cmdline.c(571,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\cmdline.c(595,20): warning C4244: “-=”: 从“__int64”转换到“int”，可能丢失数据
+  bitstream.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(239,19): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(273,20): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(486,11): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(655,72): warning C4311: “类型强制转换”: 从“HANDLE_BSBITBUFFER”到“unsigned long”的指针截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(687,72): warning C4311: “类型强制转换”: 从“HANDLE_BSBITBUFFER”到“unsigned long”的指针截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(1253,48): warning C4311: “类型强制转换”: 从“HANDLE_BSBITBUFFER”到“unsigned long”的指针截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(1320,48): warning C4311: “类型强制转换”: 从“HANDLE_BSBITBUFFER”到“unsigned long”的指针截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(1563,65): warning C4311: “类型强制转换”: 从“HANDLE_BSBITBUFFER”到“unsigned long”的指针截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(1615,66): warning C4311: “类型强制转换”: 从“HANDLE_BSBITBUFFER”到“unsigned long”的指针截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(1629,46): warning C4311: “类型强制转换”: 从“HANDLE_BSBITBUFFER”到“unsigned long”的指针截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(1646,61): warning C4311: “类型强制转换”: 从“HANDLE_BSBITBUFFER”到“unsigned long”的指针截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(1660,46): warning C4311: “类型强制转换”: 从“HANDLE_BSBITBUFFER”到“unsigned long”的指针截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2045,47): warning C4477: “fscanf”: 格式字符串“%hu”需要类型“unsigned short *”的参数，但可变参数 1 拥有了类型“unsigned int *”
+  C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2045,47):
+  请考虑在格式字符串中使用“%u”
+  C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2045,47):
+  请考虑在格式字符串中使用“%I32u”
+  
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2053,53): warning C4477: “fscanf”: 格式字符串“%hu”需要类型“unsigned short *”的参数，但可变参数 1 拥有了类型“unsigned int *”
+  C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2053,53):
+  请考虑在格式字符串中使用“%u”
+  C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2053,53):
+  请考虑在格式字符串中使用“%I32u”
+  
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2069,53): warning C4477: “fscanf”: 格式字符串“%hu”需要类型“unsigned short *”的参数，但可变参数 1 拥有了类型“unsigned int *”
+  C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2069,53):
+  请考虑在格式字符串中使用“%u”
+  C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2069,53):
+  请考虑在格式字符串中使用“%I32u”
+  
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2424,47): warning C4477: “fscanf”: 格式字符串“%hu”需要类型“unsigned short *”的参数，但可变参数 1 拥有了类型“unsigned int *”
+  C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2424,47):
+  请考虑在格式字符串中使用“%u”
+  C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\bitstream.c(2424,47):
+  请考虑在格式字符串中使用“%I32u”
+  
+  austream.c
+  audio.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\audio.c(162,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\audio.c(578,33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_frame\audio.c(811,33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  adif.c
+  正在生成代码...
+  objs_com.vcxproj -> C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\lib\x64_Debug\objs_com.lib

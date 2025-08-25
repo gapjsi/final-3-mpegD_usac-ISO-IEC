@@ -1,0 +1,14 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  streamfile_raw.c
+  streamfile_mp4.c
+  streamfile_latm.c
+  streamfile_helper.c
+  streamfile_fl4.c
+  streamfile_diagnose.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_mp4\streamfile_diagnose.c(587,33): warning C4244: “=”: 从“float”转换到“long”，可能丢失数据
+  streamfile.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_mp4\streamfile.c(179,11): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_mp4\streamfile.c(167,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ep_convert.c
+  正在生成代码...
+  objs_streamfile.vcxproj -> C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\lib\x64_Debug\objs_streamfile.lib

@@ -1,0 +1,22 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  lit_ms.c
+  lit_ll_dec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_sls\lit_ll_dec.c(303,35): warning C4244: “=”: 从“long”转换到“short”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_sls\lit_ll_dec.c(478,33): warning C4018: “>”: 有符号/无符号不匹配
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_sls\lit_ll_dec.c(479,41): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_sls\lit_ll_dec.c(534,36): warning C4018: “>”: 有符号/无符号不匹配
+  lit_ll_common.c
+  inv_int_mdct.c
+  int_win_dctiv.c
+  int_tns.c
+  int_mdct.c
+  int_compact_tables.c
+  decoder_sls.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_sls\decoder_sls.c(140,44): warning C4244: “=”: 从“long”转换到“unsigned char”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_sls\decoder_sls.c(203,28): warning C4244: “函数”: 从“short”转换到“byte”，可能丢失数据
+  cbac.c
+  acod.c
+  正在生成代码...
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_sls\lit_ll_dec.c(97,1): warning C4700: 使用了未初始化的局部变量“ncells”
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_sls\lit_ll_dec.c(384,1): warning C4700: 使用了未初始化的局部变量“j”
+  objs_sls.vcxproj -> C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\lib\x64_Debug\objs_sls.lib

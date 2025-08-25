@@ -1,0 +1,13 @@
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\ResampAudio.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSexpTime.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSfiltSpec.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSincTime.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSinterp.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSintFilt.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSKaiserLPF.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSoptions.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSratio.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSrefresh.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSresamp.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSuKaiser.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\ResampAudio_x64_VS2012\RSwriteCof.obj 

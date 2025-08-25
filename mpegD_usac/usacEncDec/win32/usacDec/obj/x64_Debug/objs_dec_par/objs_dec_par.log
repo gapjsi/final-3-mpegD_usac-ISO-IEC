@@ -1,0 +1,155 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  uhd_fft.c
+  indilinesyn.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\indilinesyn.c(529,35): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\indilinesyn.c(539,35): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\indilinesyn.c(557,35): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\indilinesyn.c(576,35): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\indilinesyn.c(596,35): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+  indilineqnt.c
+  indilinedec.c
+  indilinecom.c
+  hvxcVxcDec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVxcDec.c(78,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVxcDec.c(79,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVxcDec.c(83,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVxcDec.c(122,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVxcDec.c(200,50): warning C4305: “函数”: 从“double”到“float”截断
+  hvxcVExtGenDec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(146,55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(159,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(161,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(165,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(167,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(182,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(183,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(210,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(211,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(250,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(325,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(375,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(382,28): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(386,48): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(445,6): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(446,7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(447,6): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(448,7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(457,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(458,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(469,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(470,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(529,14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(537,32): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(545,14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(565,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(566,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(587,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(590,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(591,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(614,6): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(615,6): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(616,7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(675,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(676,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(688,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(689,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(697,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(706,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(707,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(719,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(720,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(731,4): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(737,4): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(743,4): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(898,34): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcVExtGenDec.c(905,4): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hvxcUVExtGenDec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcUVExtGenDec.c(75,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hvxcSynVDec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcSynVDec.c(88,49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcSynVDec.c(103,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcSynVDec.c(145,30): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcSynVDec.c(146,30): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hvxcSynUVDec.c
+  hvxcQLspDec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQLspDec.c(67,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQLspDec.c(76,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQLspDec.c(77,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQLspDec.c(78,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQLspDec.c(94,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hvxcQAmDec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQAmDec.c(387,20): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQAmDec.c(401,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQAmDec.c(429,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQAmDec.c(462,65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcQAmDec.c(465,30): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hvxcProtect.c
+  hvxcItpDec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(68,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(69,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(75,11): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(98,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(121,36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(138,48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(144,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(165,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(193,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(204,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(271,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(281,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(329,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcItpDec.c(339,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hvxcFltDec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(56,7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(61,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(77,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(85,7): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(90,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(209,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(213,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(218,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(243,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(247,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(320,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(325,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(394,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(411,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(471,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(476,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(542,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(557,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(615,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcFltDec.c(620,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hvxcDec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(85,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(89,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(93,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(103,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(114,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(592,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(665,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(810,14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(899,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(926,69): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(1358,35): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcDec.c(1363,33): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+  hvxcCommon.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcCommon.c(90,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcCommon.c(97,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcCommon.c(97,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcCommon.c(170,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcCommon.c(227,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcCommon.c(231,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcCommon.c(245,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcCommon.c(249,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\hvxcCommon.c(253,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hvxc_lpc_dmy.c
+  dec_par.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\dec_par.c(1067,12): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\dec_par.c(1110,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\dec_par.c(1205,40): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\dec_par.c(1821,19): warning C4244: “=”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\dec_par.c(2168,118): warning C4244: “=”: 从“UINT32”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_par\dec_par.c(2170,29): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  正在生成代码...
+  objs_dec_par.vcxproj -> C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\lib\x64_Debug\objs_dec_par.lib

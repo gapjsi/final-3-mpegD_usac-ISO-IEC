@@ -1,0 +1,11 @@
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOdecFI.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOdecFO.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOdecHelp.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOdecOpt.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOnFrame.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOsetDformat.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOsetFIopt.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOsetFOopt.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOsetFormat.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOsetFtype.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\libAO\AOstdin.c 

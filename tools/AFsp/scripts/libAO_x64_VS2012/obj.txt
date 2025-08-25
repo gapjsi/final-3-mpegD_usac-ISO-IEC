@@ -1,0 +1,11 @@
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOdecFI.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOdecFO.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOdecHelp.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOdecOpt.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOnFrame.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOsetDformat.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOsetFIopt.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOsetFOopt.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOsetFormat.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOsetFtype.obj 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\scripts\libAO_x64_VS2012\AOstdin.obj 

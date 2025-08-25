@@ -1,0 +1,13 @@
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\ResampAudio.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSexpTime.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSfiltSpec.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSincTime.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSinterp.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSintFilt.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSKaiserLPF.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSoptions.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSratio.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSrefresh.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSresamp.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSuKaiser.c 
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\tools\AFsp\audio\ResampAudio\RSwriteCof.c 

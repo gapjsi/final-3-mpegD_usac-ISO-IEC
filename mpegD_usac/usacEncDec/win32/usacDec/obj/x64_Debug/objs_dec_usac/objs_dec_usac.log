@@ -1,0 +1,156 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  vlpc_2st_dec.c
+  vlpc_1st_dic.c
+  vlpc_1st_dec.c
+  util_td.c
+  usac_windows.c
+  usac_tw_tools.c
+  usac_transfo.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(154,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(173,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(174,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(175,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(176,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(218,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(219,9): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(144,26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(299,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(336,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(337,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(408,35): warning C4305: “=”: 从“double”到“float”截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_transfo.c(414,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  usac_toolsinit.c
+  usac_toolsdec3.c
+  usac_tns.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_tns.c(79,43): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_tns.c(80,43): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  usac_td_dec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../src_usac/usac_td_dec.c”)
+  
+  usac_tcx_mdct.c
+  usac_imdct.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_imdct.c(324,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_imdct.c(982,69): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_imdct.c(988,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_imdct.c(989,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_imdct.c(990,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_imdct.c(991,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  usac_fd_dec.c
+  usac_enc_lpc.c
+  usac_decdata.c
+  usac_cplx_pred.c
+  usac_cfftn.c
+  usac_calcWindow.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_calcWindow.c(164,44): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_calcWindow.c(209,16): warning C4305: “*=”: 从“double”到“float”截断
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_calcWindow.c(228,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_calcWindow.c(231,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_calcWindow.c(285,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_calcWindow.c(360,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  usac_bits.c
+  正在生成代码...
+  正在编译...
+  usac_arith_dec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\usac_arith_dec.c(1187,22): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+  tables_plus.c
+  spatial_bitstreamreader_buffer.c
+  savq_dec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../src_usac/savq_dec.c”)
+  
+  re8_vor.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8_vor.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../src_usac/re8_vor.c”)
+  
+  re8_ppv.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8_ppv.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../src_usac/re8_ppv.c”)
+  
+  re8_dic.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8_dic.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  re8_dec.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8_dec.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../src_usac/re8_dec.c”)
+  
+  pit_fr4.c
+  lsf_tab.c
+  LPD_fac.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\LPD_fac.c(248,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\LPD_fac.c(249,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\LPD_fac.c(250,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\LPD_fac.c(263,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  int_lpc.c
+  hp50.c
+  harmsbrWingen.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrWingen.c(133,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrWingen.c(141,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  harmsbrQmftrans.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(370,112): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(439,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(440,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(478,31): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(479,31): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(480,31): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(481,31): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(557,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(561,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(724,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(725,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(758,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(759,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(785,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(791,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(829,65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(832,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(833,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(838,96): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(839,96): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(852,83): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(854,83): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrQmftrans.c(850,57): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  harmsbrPhasevoc.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(499,25): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(500,25): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(512,111): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(559,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(560,73): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(562,43): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(563,43): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(585,75): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(587,47): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\harmsbrPhasevoc.c(588,47): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+  harmsbrMathlib.c
+  get_gain.c
+  enc_util.c
+  enc_rom.c
+  正在生成代码...
+  正在编译...
+  enc_gain.c
+  dlpc_avq.c
+  decoder_usac.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\decoder_usac.c(322,52): warning C4133: “函数”: 从“unsigned char *”到“unsigned long *”的类型不兼容
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\decoder_usac.c(951,90): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\decoder_usac.c(953,88): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  decode_chan_ele.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\decode_chan_ele.c(271,24): warning C4244: “=”: 从“long”转换到“unsigned char”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\decode_chan_ele.c(279,22): warning C4244: “=”: 从“long”转换到“unsigned char”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\decode_chan_ele.c(286,22): warning C4244: “=”: 从“long”转换到“unsigned char”，可能丢失数据
+  dec_usac.c
+  dec_tcx_fac.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../src_usac/dec_tcx_fac.c”)
+  
+  dec_LPD.c
+  dec_fd_fac.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_usac\re8.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../src_usac/dec_fd_fac.c”)
+  
+  dec_acelp.c
+  dec_ace_fac.c
+  d_gain2p.c
+  正在生成代码...
+  objs_dec_usac.vcxproj -> C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\lib\x64_Debug\objs_dec_usac.lib

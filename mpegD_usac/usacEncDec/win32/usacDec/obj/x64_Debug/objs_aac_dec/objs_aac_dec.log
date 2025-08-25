@@ -1,0 +1,42 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  util.c
+  transfo.c
+  tns2.c
+  tns.c
+  stereo.c
+  statistics_aac_dummy.c
+  rvlcscfresil.c
+  rvlcScfConceal_dummy.c
+  reorderspec.c
+  pns.c
+  nok_lt_prediction.c
+  monopred.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\monopred.c(104,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\monopred.c(107,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\monopred.c(113,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\monopred.c(188,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\monopred.c(198,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\monopred.c(417,8): warning C4244: “=”: 从“Float”转换到“float”，可能丢失数据
+  intrins.c
+  intensity.c
+  imdct.c
+  hufftables.c
+  huffscfresil.c
+  huffinit.c
+  huffdec3.c
+  huffdec2.c
+  正在生成代码...
+  正在编译...
+  huffdec1.c
+  escapeScfResil.c
+  decoder_tf.c
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\decoder_tf.c(357,76): warning C4244: “=”: 从“long”转换到“unsigned char”，可能丢失数据
+C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\src_tf\decoder_tf.c(364,73): warning C4244: “=”: 从“long”转换到“unsigned char”，可能丢失数据
+  decdata.c
+  coupling.c
+  config.c
+  concealment_dummy.c
+  buffers.c
+  bitfct.c
+  正在生成代码...
+  objs_aac_dec.vcxproj -> C:\Users\86136\Desktop\exe\ISO-IEC-USAC\mpegD_usac\usacEncDec\win32\usacDec\lib\x64_Debug\objs_aac_dec.lib
