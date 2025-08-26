@@ -11,13 +11,13 @@
   son_gc_etc_enc.cpp
   son_gc_detectreset.cpp
   son_gc_detecter.cpp
+  son_gc_common.cpp
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(122,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(123,32): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(126,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(128,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(134,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\son_gc_detecter.cpp(141,45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-  son_gc_common.cpp
   scal_enc_frame.cpp
   sam_faencode.cpp
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf_enc\sam_faencode.cpp(94,42): warning C4838: 从“unsigned int”转换到“long”需要收缩转换

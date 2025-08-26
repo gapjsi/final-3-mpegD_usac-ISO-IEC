@@ -2289,10 +2289,33 @@ int EncUsacFrame(const ENCODER_DATA_TYPE  input,
   }
 #endif
 #if fdk_psy
-  HANDLE_AAC_ENC* hAacEnc;
+  HANDLE_AAC_ENC* phAacEnc;
   AAC_ENCODER_ERROR ErrorStatus;
   CHANNEL_MAPPING* cm = NULL;
-  FDKaacEnc_Open(hAacEnc,2,2,1);
+  AUDIO_OBJECT_TYPE audioObjectTyp;
+  INT tnsMask,usePns,useIS,useMS; UINT syntaxFlags; ULONG initFlags; 
+  INT ancDataBitRate,bitRate, psyBitrate;
+  usePns = 0; useIS = 0; useMS = 0; 
+  syntaxFlags = 0; //"SyntaxFlags" is a parameter initialized during the TNS initialization process.
+  initFlags = 1;//initFlags must be 1 for init"FDKaacEnc_psyInitStates"
+  bitRate = 16000;//根据fdk，直接初始化1600
+  ancDataBitRate = 3085;//在fdk中，SBR 或 PS1 所消耗的估计比特率(此处直接初始化为3085)
+  psyBitrate = bitRate - ancDataBitRate;
+  tnsMask = data->tns_select ? TNS_ENABLE_MASK : 0x0;
+  audioObjectTyp = AOT_USAC;
+  phAacEnc = (HANDLE_AAC_ENC*)GetRam_aacEnc_AacEncoder();
+  ErrorStatus = FDKaacEnc_Open(phAacEnc,2,2,1);
+  HANDLE_AAC_ENC hAacEnc = *phAacEnc;
+  cm = &hAacEnc->channelMapping;
+  cm->nChannels = 1; cm->nChannelsEff = 1; cm->nElements = 1; cm->encMode = MODE_1; cm->elInfo[0].nChannelsInEl = 1;
+  ErrorStatus = FDKaacEnc_psyInit(hAacEnc->psyKernel, hAacEnc->psyOut,
+      hAacEnc->maxFrames, hAacEnc->maxChannels,
+      audioObjectTyp, cm);
+  ErrorStatus = FDKaacEnc_psyMainInit(
+      hAacEnc->psyKernel, audioObjectTyp, cm, data->sampling_rate,
+      data->block_size_samples, psyBitrate, tnsMask, hAacEnc->bandwidth90dB,
+      usePns, useIS, useMS, syntaxFlags,
+      initFlags);
   //ErrorStatus = FDKaacEnc_DetermineBandWidth(
   //    config->bandWidth, config->bitRate - config->ancDataBitRate,
   //    hAacEnc->bitrateMode, config->sampleRate, config->framelength, cm,

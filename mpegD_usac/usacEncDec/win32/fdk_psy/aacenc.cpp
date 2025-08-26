@@ -113,7 +113,7 @@ amm-info@iis.fraunhofer.de
 #include "aacEnc_ram.h"
 
 #include "genericStds.h"
-
+#include "maro.h"
 #define BITRES_MIN \
   300 /* default threshold for using reduced/disabled bitres mode */
 #define BITRES_MAX_LD 4000
@@ -146,7 +146,8 @@ INT FDKaacEnc_CalcBitrate(const INT bitsPerFrame, const INT frameLength,
 static AAC_ENCODER_ERROR FDKaacEnc_InitCheckAncillary(
     INT bitRate, INT framelength, INT ancillaryRate, INT *ancillaryBitsPerFrame,
     INT sampleRate);
-
+#if fdk_ignore_aacenc
+#else
 INT FDKaacEnc_LimitBitrate(HANDLE_TRANSPORTENC hTpEnc, AUDIO_OBJECT_TYPE aot,
                            INT coreSamplingRate, INT frameLength, INT nChannels,
                            INT nChannelsEff, INT bitRate, INT averageBits,
@@ -190,6 +191,7 @@ INT FDKaacEnc_LimitBitrate(HANDLE_TRANSPORTENC hTpEnc, AUDIO_OBJECT_TYPE aot,
 
   return bitRate;
 }
+#endif
 
 typedef struct {
   AACENC_BITRATE_MODE bitrateMode;
@@ -380,9 +382,9 @@ AAC_ENCODER_ERROR FDKaacEnc_Open(HANDLE_AAC_ENC *phAacEnc, const INT nElements,
   AAC_ENC *hAacEnc = NULL;
   UCHAR *dynamicRAM = NULL;
 
-  if (phAacEnc == NULL) {
+ /* if (phAacEnc == NULL) {
     return AAC_ENC_INVALID_HANDLE;
-  }
+  }*/
 
   /* allocate encoder structure */
   hAacEnc = GetRam_aacEnc_AacEncoder();
@@ -407,6 +409,8 @@ AAC_ENCODER_ERROR FDKaacEnc_Open(HANDLE_AAC_ENC *phAacEnc, const INT nElements,
                                     nSubFrames, dynamicRAM);
   if (ErrorStatus != AAC_ENC_OK) goto bail;
 
+#if fdk_ignore_aacenc
+#else
   /* allocate the Q&C Out structure */
   ErrorStatus = FDKaacEnc_QCOutNew(hAacEnc->qcOut, nElements, nChannels,
                                    nSubFrames, dynamicRAM);
@@ -415,7 +419,7 @@ AAC_ENCODER_ERROR FDKaacEnc_Open(HANDLE_AAC_ENC *phAacEnc, const INT nElements,
   /* allocate the Q&C kernel */
   ErrorStatus = FDKaacEnc_QCNew(&hAacEnc->qcKernel, nElements, dynamicRAM);
   if (ErrorStatus != AAC_ENC_OK) goto bail;
-
+#endif
   hAacEnc->maxChannels = nChannels;
   hAacEnc->maxElements = nElements;
   hAacEnc->maxFrames = nSubFrames;
@@ -425,6 +429,8 @@ bail:
   return ErrorStatus;
 }
 
+#if fdk_ignore_aacenc
+#else
 AAC_ENCODER_ERROR FDKaacEnc_Initialize(
     HANDLE_AAC_ENC hAacEnc,
     AACENC_CONFIG *config, /* pre-initialized config struct */
@@ -758,7 +764,7 @@ bail:
 
   return ErrorStatus;
 }
-
+#endif
 /*---------------------------------------------------------------------------
 
     functionname: FDKaacEnc_EncodeFrame
@@ -766,6 +772,8 @@ bail:
     returns:      error code
 
   ---------------------------------------------------------------------------*/
+#if fdk_ignore_aacenc
+#else
 AAC_ENCODER_ERROR FDKaacEnc_EncodeFrame(
     HANDLE_AAC_ENC hAacEnc, /* encoder handle */
     HANDLE_TRANSPORTENC hTpEnc, INT_PCM *RESTRICT inputBuffer,
@@ -996,7 +1004,7 @@ AAC_ENCODER_ERROR FDKaacEnc_EncodeFrame(
   /*-------------------------------------------- */
   return AAC_ENC_OK;
 }
-
+#endif
 /*---------------------------------------------------------------------------
 
     functionname:FDKaacEnc_Close
@@ -1004,7 +1012,8 @@ AAC_ENCODER_ERROR FDKaacEnc_EncodeFrame(
     returns:
 
   ---------------------------------------------------------------------------*/
-
+#if fdk_ignore_aacenc
+#else
 void FDKaacEnc_Close(HANDLE_AAC_ENC *phAacEnc) /* encoder handle */
 {
   if (*phAacEnc == NULL) {
@@ -1020,7 +1029,7 @@ void FDKaacEnc_Close(HANDLE_AAC_ENC *phAacEnc) /* encoder handle */
 
   FreeRam_aacEnc_AacEncoder(phAacEnc);
 }
-
+#endif
 /* The following functions are in this source file only for convenience and */
 /* need not be visible outside of a possible encoder library. */
 

@@ -37,6 +37,7 @@
   sac_blind.cpp
   sac_bitinput.cpp
   sac_bitdec.cpp
+  sac_arbitraryTree.cpp
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\mp4spatialdec\src\sac_bitdec.cpp(1419,14): warning C4244: “=”: 从“long”转换到“unsigned short”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\mp4spatialdec\src\sac_bitdec.cpp(1420,14): warning C4244: “=”: 从“long”转换到“unsigned short”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\mp4spatialdec\src\sac_bitdec.cpp(1421,14): warning C4244: “=”: 从“long”转换到“unsigned short”，可能丢失数据
@@ -47,6 +48,5 @@ C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpeg
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\mp4spatialdec\src\sac_bitdec.cpp(1437,14): warning C4244: “=”: 从“long”转换到“unsigned short”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\mp4spatialdec\src\sac_bitdec.cpp(1438,14): warning C4244: “=”: 从“long”转换到“unsigned short”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\mp4spatialdec\src\sac_bitdec.cpp(1444,14): warning C4244: “=”: 从“long”转换到“unsigned short”，可能丢失数据
-  sac_arbitraryTree.cpp
   正在生成代码...
   spatiallib.vcxproj -> C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\usacEnc\lib\x64_Debug\spatiallib.lib

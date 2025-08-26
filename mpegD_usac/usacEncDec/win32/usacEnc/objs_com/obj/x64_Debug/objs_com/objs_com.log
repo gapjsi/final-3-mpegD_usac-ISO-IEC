@@ -3,12 +3,13 @@
   usac_config.cpp
   spatial_bitstreamreader.cpp
   flex_mux.cpp
-C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\flex_mux.cpp(2296,7): warning C4065: switch 语句包含“default”但是未包含“case”标签
   fir_filt.cpp
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\flex_mux.cpp(2296,7): warning C4065: switch 语句包含“default”但是未包含“case”标签
   common_m4a.cpp
   cmdline.cpp
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\cmdline.cpp(397,43): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\cmdline.cpp(422,23): warning C4477: “fprintf”: 格式字符串“%-*s”需要类型“int”的参数，但可变参数 4 拥有了类型“size_t”
+  bitstream.cpp
       C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\cmdline.cpp(422,23):
       此参数用作字段宽度
   
@@ -16,7 +17,6 @@ C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpeg
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\cmdline.cpp(569,18): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\cmdline.cpp(571,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\cmdline.cpp(595,20): warning C4244: “-=”: 从“__int64”转换到“int”，可能丢失数据
-  bitstream.cpp
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\bitstream.cpp(239,24): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\bitstream.cpp(273,26): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame\bitstream.cpp(486,17): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据

@@ -106,7 +106,7 @@ amm-info@iis.fraunhofer.de
 #define FUNCTION_sqrtFixp
 
 #include <math.h>
-
+#include "maro.h"
 #ifdef FUNCTION_sqrtFixp
 static inline FIXP_DBL sqrtFixp(const FIXP_DBL op) {
   FIXP_DBL result;
@@ -128,6 +128,7 @@ static inline FIXP_DBL sqrtFixp(const FIXP_DBL op) {
  * \param result_e pointer to return the exponent of the result
  * \return mantissa of the result
  */
+
 #ifdef FUNCTION_invSqrtNorm2
 inline FIXP_DBL invSqrtNorm2(FIXP_DBL op_m, INT *result_e) {
   float result;
@@ -136,7 +137,10 @@ inline FIXP_DBL invSqrtNorm2(FIXP_DBL op_m, INT *result_e) {
     return ((LONG)0x7fffffff);
   }
   result = (float)(1.0 / sqrt(0.5f * (float)(INT)op_m));
+#if fdk_ignore_aacenc_tns
+#else
   result = (float)ldexp(frexpf(result, result_e), DFRACT_BITS - 1);
+#endif
   *result_e += 15;
 
   FDK_ASSERT(result >= 0);
@@ -150,6 +154,8 @@ inline FIXP_DBL invSqrtNorm2(FIXP_DBL op_m, INT *result_e) {
  * \param op mantissa of the input value.
  * \return mantissa of the result with implizit exponent of 31
  */
+#if fdk_ignore_aacenc_tns
+#else
 #ifdef FUNCTION_invFixp
 inline FIXP_DBL invFixp(FIXP_DBL op) {
   float result;
@@ -184,6 +190,7 @@ inline FIXP_DBL invFixp(FIXP_DBL op_m, int *op_e) {
   return (FIXP_DBL)(INT)result;
 }
 #endif /* FUNCTION_invFixp */
+#endif
 
 #define FUNCTION_schur_div
 /**

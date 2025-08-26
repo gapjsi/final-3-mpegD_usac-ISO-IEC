@@ -87,24 +87,23 @@ libtsplite_MTd_x64.lib(STunQuote.obj) : warning LNK4099: 未找到 PDB“”(使
 libtsplite_MTd_x64.lib(STtrim.obj) : warning LNK4099: 未找到 PDB“”(使用“libtsplite_MTd_x64.lib(STtrim.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
     正在创建库 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\usacEnc\bin\x64_Debug\usacEnc.lib 和对象 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\usacEnc\bin\x64_Debug\usacEnc.exp
 LIBCMTD.lib(initializers.obj) : warning LNK4098: 默认库“msvcrtd.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(fft.obj)”导入
 LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(fft_rad2.obj)”导入
-LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(intensity.obj)”导入
 LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(dct.obj)”导入
 LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(FDK_lpc.obj)”导入
 LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(chaosmeasure.obj)”导入
-LINK : warning LNK4217: 符号“_wassert”(在“ libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(mdct.obj)”(函数“"long __cdecl fAddSaturate(long,long)" (?fAddSaturate@@YAJJJ@Z)”中)导入
-LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(transform.obj)”导入
-LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(pre_echo_control.obj)”导入
+LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(fft.obj)”导入
 LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(aacenc_tns.obj)”导入
-LINK : warning LNK4217: 符号“_wassert”(在“ libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(psy_main.obj)”(函数“"enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_psyMain(int,struct PSY_ELEMENT *,struct PSY_DYNAMIC *,struct PSY_CONFIGURATION *,struct PSY_OUT_ELEMENT *,short *,unsigned int,int *,int)" (?FDKaacEnc_psyMain@@YA?AW4AAC_ENCODER_ERROR@@HPEAUPSY_ELEMENT@@PEAUPSY_DYNAMIC@@PEAUPSY_CONFIGURATION@@PEAUPSY_OUT_ELEMENT@@PEAFIPEAHH@Z)”中)导入
-LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(aacEnc_ram.obj)”导入
+LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(intensity.obj)”导入
 LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(syslib_channelMapDescr.obj)”导入
 LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(FDK_tools_rom.obj)”导入
-LINK : warning LNK4217: 符号“_wassert”(在“ libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(aacenc.obj)”(函数“FDKaacEnc_LimitBitrate”中)导入
-LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(genericStds.obj)”导入
 LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(fixpoint_math.obj)”导入
-LINK : warning LNK4217: 符号“_wassert”(在“ libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(channel_map.obj)”(函数“"enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_InitElementBits(struct QC_STATE *,struct CHANNEL_MAPPING *,int,int,int)" (?FDKaacEnc_InitElementBits@@YA?AW4AAC_ENCODER_ERROR@@PEAUQC_STATE@@PEAUCHANNEL_MAPPING@@HHH@Z)”中)导入
+LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(mdct.obj)”导入
+LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(transform.obj)”导入
+LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(pre_echo_control.obj)”导入
+LINK : warning LNK4217: 符号“_wassert”(在“ libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(psy_main.obj)”(函数“"enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_psyMain(int,struct PSY_ELEMENT *,struct PSY_DYNAMIC *,struct PSY_CONFIGURATION *,struct PSY_OUT_ELEMENT *,short *,unsigned int,int *,int)" (?FDKaacEnc_psyMain@@YA?AW4AAC_ENCODER_ERROR@@HPEAUPSY_ELEMENT@@PEAUPSY_DYNAMIC@@PEAUPSY_CONFIGURATION@@PEAUPSY_OUT_ELEMENT@@PEAFIPEAHH@Z)”中)导入
+LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(aacEnc_ram.obj)”导入
+LINK : warning LNK4286: 符号“_wassert”(在“libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(genericStds.obj)”导入
+LINK : warning LNK4217: 符号“_wassert”(在“ libucrtd.lib(assert.obj)”中定义)已由“fdk_psy.lib(channel_map.obj)”(函数“"enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_InitChannelMapping(enum CHANNEL_MODE,enum CHANNEL_ORDER,struct CHANNEL_MAPPING *)" (?FDKaacEnc_InitChannelMapping@@YA?AW4AAC_ENCODER_ERROR@@W4CHANNEL_MODE@@W4CHANNEL_ORDER@@PEAUCHANNEL_MAPPING@@@Z)”中)导入
 LINK : warning LNK4217: 符号“calloc”(在“ libucrtd.lib(calloc.obj)”中定义)已由“fdk_psy.lib(genericStds.obj)”(函数“FDKcalloc”中)导入
 LINK : warning LNK4217: 符号“free”(在“ libucrtd.lib(free.obj)”中定义)已由“fdk_psy.lib(genericStds.obj)”(函数“FDKfree”中)导入
 LINK : warning LNK4217: 符号“malloc”(在“ libucrtd.lib(malloc.obj)”中定义)已由“fdk_psy.lib(genericStds.obj)”(函数“FDKmalloc”中)导入
@@ -123,22 +122,4 @@ LINK : warning LNK4217: 符号“__stdio_common_vfprintf”(在“ libucrtd.lib(
 LINK : warning LNK4217: 符号“__stdio_common_vsprintf”(在“ libucrtd.lib(output.obj)”中定义)已由“fdk_psy.lib(genericStds.obj)”(函数“_vsnprintf_l”中)导入
 LINK : warning LNK4217: 符号“strncmp”(在“ libucrtd.lib(strncmp.obj)”中定义)已由“fdk_psy.lib(genericStds.obj)”(函数“FDKstrncmp”中)导入
 LINK : warning LNK4217: 符号“strncpy”(在“ libucrtd.lib(strncpy.obj)”中定义)已由“fdk_psy.lib(genericStds.obj)”(函数“FDKstrncpy”中)导入
-LINK : warning LNK4217: 符号“ldexp”(在“ libucrtd.lib(ldexp.obj)”中定义)已由“fdk_psy.lib(aacenc_tns.obj)”(函数“"long __cdecl invSqrtNorm2(long,int *)" (?invSqrtNorm2@@YAJJPEAH@Z)”中)导入
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "int __cdecl transportEnc_GetStaticBits(struct TRANSPORTENC *,int)" (?transportEnc_GetStaticBits@@YAHPEAUTRANSPORTENC@@H@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum TRANSPORTENC_ERROR __cdecl transportEnc_WriteAccessUnit(struct TRANSPORTENC *,int,int,int)" (?transportEnc_WriteAccessUnit@@YA?AW4TRANSPORTENC_ERROR@@PEAUTRANSPORTENC@@HHH@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum TRANSPORTENC_ERROR __cdecl transportEnc_GetFrame(struct TRANSPORTENC *,int *)" (?transportEnc_GetFrame@@YA?AW4TRANSPORTENC_ERROR@@PEAUTRANSPORTENC@@PEAH@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_WriteBitstream(struct TRANSPORTENC *,struct CHANNEL_MAPPING *,struct QC_OUT *,struct PSY_OUT *,struct QC_STATE *,enum AUDIO_OBJECT_TYPE,unsigned int,signed char)" (?FDKaacEnc_WriteBitstream@@YA?AW4AAC_ENCODER_ERROR@@PEAUTRANSPORTENC@@PEAUCHANNEL_MAPPING@@PEAUQC_OUT@@PEAUPSY_OUT@@PEAUQC_STATE@@W4AUDIO_OBJECT_TYPE@@IC@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "int __cdecl FDKaacEnc_writeExtensionData(struct TRANSPORTENC *,struct QC_OUT_EXTENSION *,int,unsigned int,unsigned int,enum AUDIO_OBJECT_TYPE,signed char)" (?FDKaacEnc_writeExtensionData@@YAHPEAUTRANSPORTENC@@PEAUQC_OUT_EXTENSION@@HIIW4AUDIO_OBJECT_TYPE@@C@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_QCOutNew(struct QC_OUT * *,int,int,int,unsigned char *)" (?FDKaacEnc_QCOutNew@@YA?AW4AAC_ENCODER_ERROR@@PEAPEAUQC_OUT@@HHHPEAE@Z)，函数 FDKaacEnc_Open 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_QCOutInit(struct QC_OUT * * const,int,struct CHANNEL_MAPPING const *)" (?FDKaacEnc_QCOutInit@@YA?AW4AAC_ENCODER_ERROR@@QEAPEAUQC_OUT@@HPEBUCHANNEL_MAPPING@@@Z)，函数 FDKaacEnc_Initialize 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_QCNew(struct QC_STATE * *,int,unsigned char *)" (?FDKaacEnc_QCNew@@YA?AW4AAC_ENCODER_ERROR@@PEAPEAUQC_STATE@@HPEAE@Z)，函数 FDKaacEnc_Open 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_QCInit(struct QC_STATE *,struct QC_INIT *,unsigned long)" (?FDKaacEnc_QCInit@@YA?AW4AAC_ENCODER_ERROR@@PEAUQC_STATE@@PEAUQC_INIT@@K@Z)，函数 FDKaacEnc_Initialize 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_QCMainPrepare(struct ELEMENT_INFO *,struct ATS_ELEMENT *,struct PSY_OUT_ELEMENT *,struct QC_OUT_ELEMENT *,enum AUDIO_OBJECT_TYPE,unsigned int,signed char)" (?FDKaacEnc_QCMainPrepare@@YA?AW4AAC_ENCODER_ERROR@@PEAUELEMENT_INFO@@PEAUATS_ELEMENT@@PEAUPSY_OUT_ELEMENT@@PEAUQC_OUT_ELEMENT@@W4AUDIO_OBJECT_TYPE@@IC@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_QCMain(struct QC_STATE *,struct PSY_OUT * *,struct QC_OUT * *,int,struct CHANNEL_MAPPING *,enum AUDIO_OBJECT_TYPE,unsigned int,signed char)" (?FDKaacEnc_QCMain@@YA?AW4AAC_ENCODER_ERROR@@PEAUQC_STATE@@PEAPEAUPSY_OUT@@PEAPEAUQC_OUT@@HPEAUCHANNEL_MAPPING@@W4AUDIO_OBJECT_TYPE@@IC@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_updateFillBits(struct CHANNEL_MAPPING *,struct QC_STATE *,struct ELEMENT_BITS * * const,struct QC_OUT * *)" (?FDKaacEnc_updateFillBits@@YA?AW4AAC_ENCODER_ERROR@@PEAUCHANNEL_MAPPING@@PEAUQC_STATE@@QEAPEAUELEMENT_BITS@@PEAPEAUQC_OUT@@@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "void __cdecl FDKaacEnc_updateBitres(struct CHANNEL_MAPPING *,struct QC_STATE *,struct QC_OUT * *)" (?FDKaacEnc_updateBitres@@YAXPEAUCHANNEL_MAPPING@@PEAUQC_STATE@@PEAPEAUQC_OUT@@@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_FinalizeBitConsumption(struct CHANNEL_MAPPING *,struct QC_STATE *,struct QC_OUT *,struct QC_OUT_ELEMENT * *,struct TRANSPORTENC *,enum AUDIO_OBJECT_TYPE,unsigned int,signed char)" (?FDKaacEnc_FinalizeBitConsumption@@YA?AW4AAC_ENCODER_ERROR@@PEAUCHANNEL_MAPPING@@PEAUQC_STATE@@PEAUQC_OUT@@PEAPEAUQC_OUT_ELEMENT@@PEAUTRANSPORTENC@@W4AUDIO_OBJECT_TYPE@@IC@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "enum AAC_ENCODER_ERROR __cdecl FDKaacEnc_AdjustBitrate(struct QC_STATE *,struct CHANNEL_MAPPING *,int *,int,int,int)" (?FDKaacEnc_AdjustBitrate@@YA?AW4AAC_ENCODER_ERROR@@PEAUQC_STATE@@PEAUCHANNEL_MAPPING@@PEAHHHH@Z)，函数 FDKaacEnc_EncodeFrame 中引用了该符号
-fdk_psy.lib(aacenc.obj) : error LNK2019: 无法解析的外部符号 "void __cdecl FDKaacEnc_QCClose(struct QC_STATE * *,struct QC_OUT * *)" (?FDKaacEnc_QCClose@@YAXPEAPEAUQC_STATE@@PEAPEAUQC_OUT@@@Z)，函数 FDKaacEnc_Close 中引用了该符号
-fdk_psy.lib(aacenc_tns.obj) : error LNK2019: 无法解析的外部符号 __imp_frexp，函数 frexpf 中引用了该符号
-C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\usacEnc\bin\x64_Debug\usacEnc.exe : fatal error LNK1120: 17 个无法解析的外部命令
+  usacEnc.vcxproj -> C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\usacEnc\bin\x64_Debug\usacEnc.exe

@@ -5,8 +5,8 @@
   streamfile_helper.cpp
   streamfile_fl4.cpp
   streamfile_diagnose.cpp
-C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_mp4\streamfile_diagnose.cpp(587,33): warning C4244: “=”: 从“float”转换到“long”，可能丢失数据
   streamfile.cpp
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_mp4\streamfile_diagnose.cpp(587,33): warning C4244: “=”: 从“float”转换到“long”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_mp4\streamfile.cpp(179,11): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
 C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_mp4\streamfile.cpp(167,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   ep_convert.cpp
