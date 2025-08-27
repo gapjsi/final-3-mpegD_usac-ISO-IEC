@@ -1,17 +1,1 @@
-﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
-  sac_stream.cpp
-C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\mp4spatialenc\src\sac_stream.cpp(87,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
-  sac_polyphase.cpp
-  sac_nlc_enc.cpp
-  sac_ipd.cpp
-C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\mp4spatialenc\src\sac_ipd.cpp(126,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-  sac_hybfilter.cpp
-  sac_huff_ipd.cpp
-  sac_huff_icc.cpp
-  sac_huff_cpc.cpp
-  sac_huff_cld.cpp
-  sac_enc.cpp
-  sac_bd_embedder.cpp
-  bitstream.cpp
-  正在生成代码...
-  spatialenclib.vcxproj -> C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\usacEnc\lib\x64_Debug\spatialenclib.lib
+﻿
