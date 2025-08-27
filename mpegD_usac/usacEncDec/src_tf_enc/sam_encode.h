@@ -109,7 +109,7 @@ int EncTf_bsac_encode(
   int         nr_of_chan,
   long        samplRate,
   MSInfo      *msInfo,
-  TNS_INFO    *tnsInfo[MAX_TIME_CHANNELS],  
+  TNS_INFOO    *tnsInfo[MAX_TIME_CHANNELS],  
   int         pns_sfb_start,    
   int         num_window_groups,
   int         window_group_length[8],
@@ -148,7 +148,7 @@ int sam_FlexMuxEncode_bsac(
                int blockSizeSamples,
                int num_window_groups,
                int window_group_length[],
-               TNS_INFO *tnsInfo[MAX_TIME_CHANNELS],
+               TNS_INFOO *tnsInfo[MAX_TIME_CHANNELS],
                int bandwidth,
                int numES
 ); 

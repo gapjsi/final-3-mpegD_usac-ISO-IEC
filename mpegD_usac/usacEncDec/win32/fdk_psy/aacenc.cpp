@@ -409,13 +409,13 @@ AAC_ENCODER_ERROR FDKaacEnc_Open(HANDLE_AAC_ENC *phAacEnc, const INT nElements,
                                     nSubFrames, dynamicRAM);
   if (ErrorStatus != AAC_ENC_OK) goto bail;
 
-#if fdk_ignore_aacenc
-#else
+
   /* allocate the Q&C Out structure */
   ErrorStatus = FDKaacEnc_QCOutNew(hAacEnc->qcOut, nElements, nChannels,
                                    nSubFrames, dynamicRAM);
   if (ErrorStatus != AAC_ENC_OK) goto bail;
-
+#if fdk_ignore_aacenc
+#else
   /* allocate the Q&C kernel */
   ErrorStatus = FDKaacEnc_QCNew(&hAacEnc->qcKernel, nElements, dynamicRAM);
   if (ErrorStatus != AAC_ENC_OK) goto bail;

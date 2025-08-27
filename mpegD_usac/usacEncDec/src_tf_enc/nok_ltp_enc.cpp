@@ -258,7 +258,7 @@ ltp_enc_tf(double *p_spectrum, double *predicted_samples,
 	   WINDOW_SHAPE win_shape, WINDOW_SHAPE win_shape_prev, 
 	   int block_size_long, int block_size_short, 
 	   int *sfb_offset, int num_of_sfb, int last_band, int side_info, 
-	   int *sfb_prediction_used, TNS_INFO *tnsInfo, int sw)
+	   int *sfb_prediction_used, TNS_INFOO *tnsInfo, int sw)
 {
   int frame_len;
   double bit_gain;
@@ -348,7 +348,7 @@ nok_ltp_enc(double *p_spectrum, double *p_time_signal,
 	    WINDOW_SEQUENCE win_type, WINDOW_SHAPE win_shape, 
 	    WINDOW_SHAPE win_shape_prev, int block_size_long, 
 	    int block_size_short, int *sfb_offset, 
-	    int num_of_sfb, NOK_LT_PRED_STATUS *lt_status, TNS_INFO *tnsInfo, 
+	    int num_of_sfb, NOK_LT_PRED_STATUS *lt_status, TNS_INFOO *tnsInfo, 
 	    QC_MOD_SELECT qc_select)
 {
   int i, j, sw, sw_ltp_on;

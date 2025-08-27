@@ -122,6 +122,7 @@ extern "C" {
 #include "psy_main.h"
 #include "aacenc.h"
 #include "aacEnc_ram.h"
+#include "qc_main.h"
 #endif
 
 /* declarations */
@@ -255,7 +256,7 @@ struct tagEncoderSpecificData {
 
   MSInfo  msInfo;
   int     predCoef[MAX_SHORT_WINDOWS][SFB_NUM_MAX];
-  TNS_INFO *tnsInfo[MAX_TIME_CHANNELS];
+  TNS_INFOO *tnsInfo[MAX_TIME_CHANNELS];
   UsacICSinfo icsInfo[MAX_TIME_CHANNELS];
   UsacToolsInfo toolsInfo[MAX_TIME_CHANNELS];
   UsacQuantInfo quantInfo[MAX_TIME_CHANNELS];
@@ -933,7 +934,7 @@ static int EncUsac_tns_init(HANDLE_ENCODER_DATA data, TNS_COMPLEXITY tns_used)
     if (tns_used == NO_TNS) {
       data->tnsInfo[i_ch] = NULL;
     } else {
-      data->tnsInfo[i_ch] = (TNS_INFO*)calloc(1, sizeof(TNS_INFO));
+      data->tnsInfo[i_ch] = (TNS_INFOO*)calloc(1, sizeof(TNS_INFOO));
       if ( TnsInit(data->sampling_rate, data->tns_select, data->tnsInfo[i_ch]) )
         return -1;
     }
@@ -2303,9 +2304,13 @@ int EncUsacFrame(const ENCODER_DATA_TYPE  input,
   psyBitrate = bitRate - ancDataBitRate;
   tnsMask = data->tns_select ? TNS_ENABLE_MASK : 0x0;
   audioObjectTyp = AOT_USAC;
+  /*psy init*/
+
   phAacEnc = (HANDLE_AAC_ENC*)GetRam_aacEnc_AacEncoder();
   ErrorStatus = FDKaacEnc_Open(phAacEnc,2,2,1);
   HANDLE_AAC_ENC hAacEnc = *phAacEnc;
+  /*hAacEnc->qcOut[0] = GetRam_aacEnc_QCout(0);*/
+
   cm = &hAacEnc->channelMapping;
   cm->nChannels = 1; cm->nChannelsEff = 1; cm->nElements = 1; cm->encMode = MODE_1; cm->elInfo[0].nChannelsInEl = 1;
   ErrorStatus = FDKaacEnc_psyInit(hAacEnc->psyKernel, hAacEnc->psyOut,
@@ -2316,13 +2321,52 @@ int EncUsacFrame(const ENCODER_DATA_TYPE  input,
       data->block_size_samples, psyBitrate, tnsMask, hAacEnc->bandwidth90dB,
       usePns, useIS, useMS, syntaxFlags,
       initFlags);
-  //ErrorStatus = FDKaacEnc_DetermineBandWidth(
-  //    config->bandWidth, config->bitRate - config->ancDataBitRate,
-  //    hAacEnc->bitrateMode, config->sampleRate, config->framelength, cm,
-  //    hAacEnc->encoderMode, &hAacEnc->config->bandWidth);
-  //ErrorStatus = FDKaacEnc_psyInit(hAacEnc->psyKernel, hAacEnc->psyOut,
-  //    hAacEnc->maxFrames, hAacEnc->maxChannels,
-  //    config->audioObjectType, cm);
+  ErrorStatus = FDKaacEnc_QCOutInit(hAacEnc->qcOut, hAacEnc->maxFrames, cm);
+
+  /*psymain*/
+  int el, n, c = 0;
+  INT inputBufferBufSize = 3685;
+  INT_PCM* inputBuffer = (INT_PCM*)(input[0]);
+  UCHAR extPayloadUsed[MAX_TOTAL_EXT_PAYLOADS];
+  PSY_OUT* psyOut = hAacEnc->psyOut[c];
+  QC_OUT* qcOut = hAacEnc->qcOut[c];
+  FDKmemclear(extPayloadUsed, MAX_TOTAL_EXT_PAYLOADS * sizeof(UCHAR));
+
+  //qcOut->elementExtBits = 0; /* sum up all extended bit of each element */
+  //qcOut->staticBits = 0;     /* sum up side info bits of each element */
+  //qcOut->totalNoRedPe = 0;   /* sum up PE */
+  for (el = 0; el < cm->nElements; el++) {
+      ELEMENT_INFO elInfo = cm->elInfo[el];
+
+      if ((elInfo.elType == ID_SCE) || (elInfo.elType == ID_CPE) ||
+          (elInfo.elType == ID_LFE)) {
+          int ch;
+
+          /* update pointer!*/
+          for (ch = 0; ch < elInfo.nChannelsInEl; ch++) {
+              PSY_OUT_CHANNEL* psyOutChan =
+                  psyOut->psyOutElement[el]->psyOutChannel[ch];
+              QC_OUT_CHANNEL* qcOutChan = qcOut->qcElement[el]->qcOutChannel[ch];
+              FIXP_DBL* a = qcOutChan->mdctSpectrum;
+              //FIXP_DBL* b = psyOutChan->mdctSpectrum;
+              FIXP_DBL* c = psyOut->pPsyOutChannels[0]->mdctSpectrum;
+              psyOutChan->mdctSpectrum = qcOutChan->mdctSpectrum;
+              psyOutChan->sfbSpreadEnergy = qcOutChan->sfbSpreadEnergy;
+              psyOutChan->sfbEnergy = qcOutChan->sfbEnergy;
+              psyOutChan->sfbEnergyLdData = qcOutChan->sfbEnergyLdData;
+              psyOutChan->sfbMinSnrLdData = qcOutChan->sfbMinSnrLdData;
+              psyOutChan->sfbThresholdLdData = qcOutChan->sfbThresholdLdData;
+          }
+
+          ErrorStatus = FDKaacEnc_psyMain(
+              elInfo.nChannelsInEl, hAacEnc->psyKernel->psyElement[el],
+              hAacEnc->psyKernel->psyDynamic, hAacEnc->psyKernel->psyConf,
+              psyOut->psyOutElement[el], inputBuffer, inputBufferBufSize,
+              cm->elInfo[el].ChannelIndex, cm->nChannels);
+
+          
+      }
+  }
 #endif
 
   for ( i_ch = 0 ; i_ch < data->channels ; i_ch++ ) {

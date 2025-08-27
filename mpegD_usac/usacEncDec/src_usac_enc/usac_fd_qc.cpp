@@ -289,7 +289,7 @@ int usac_quantize_spectrum(
   const int   window_group_length[],
   int         aacAllowScalefacs,
   UsacToolsInfo *tool_data,
-  TNS_INFO      *tnsInfo,
+  TNS_INFOO      *tnsInfo,
   int common_window,
   int common_tw,
   int flag_twMdct,

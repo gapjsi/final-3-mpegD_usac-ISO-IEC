@@ -5,5 +5,5 @@
 #define fdk_tns 0
 #define fdk_ignore_aacenc 1
 #define fdk_ignore_aacenc_tns 1
-
+#define fdk_ignore_qc_main 1
 /*#################################################*/

@@ -50,7 +50,9 @@ Copyright(c)1996.
 #define NFLAT		((NWINFLAT-NWINSHORT)/2)
 #define NADV0		((NWINADV-NWINSHORT)/2)
 
-#ifndef MDCT_H
+#ifdef MDCT_H
+#define WINDOW_SHAPE WINDOW_SHAPEE
+#endif
 typedef enum {
   WS_FHG,
   WS_DOLBY,
@@ -60,7 +62,7 @@ typedef enum {
 #endif
   N_WINDOW_SHAPES
 } WINDOW_SHAPE;
-#endif
+
 
 typedef enum {
 	OVERLAPPED_MODE,

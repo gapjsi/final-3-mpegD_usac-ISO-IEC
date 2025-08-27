@@ -279,7 +279,7 @@ static void ltp_scal_reconstruct(WINDOW_SEQUENCE blockType,
                                  int *sfb_offset,
                                  int nr_of_sfb,
                                  NOK_LT_PRED_STATUS *nok_lt_status,
-                                 TNS_INFO **tnsInfo)
+                                 TNS_INFOO **tnsInfo)
 {
   int i, ch;
   double tmpbuffer[BLOCK_LEN_LONG];
@@ -348,7 +348,7 @@ int EncTf_aacscal_encode(
   int         blockSizeSamples,
   int         nr_of_chan[MAX_TF_LAYER],
   long        samplRate,
-  TNS_INFO    *tnsInfo[MAX_TIME_CHANNELS],
+  TNS_INFOO    *tnsInfo[MAX_TIME_CHANNELS],
   NOK_LT_PRED_STATUS* nok_lt_status,
   PRED_TYPE   pred_type,
   int         num_window_groups,

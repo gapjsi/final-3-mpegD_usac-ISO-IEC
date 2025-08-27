@@ -401,7 +401,7 @@ int usac_fd_cs(
   const int noise_nrg[],
   UsacICSinfo *ics_info,
   UsacToolsInfo *tool_data,
-  TNS_INFO      *tnsInfo,
+  TNS_INFOO      *tnsInfo,
   UsacQuantInfo *qInfo,
   int common_window,
   int common_tw,

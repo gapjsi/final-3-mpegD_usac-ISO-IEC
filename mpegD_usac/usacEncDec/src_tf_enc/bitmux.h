@@ -72,7 +72,7 @@ typedef struct {
   int max_band;
   GAINC **gainInfo;
   int tns_data_present;
-  TNS_INFO *tnsInfo;
+  TNS_INFOO *tnsInfo;
 } ToolsInfo;
 
 
@@ -140,7 +140,7 @@ int write_scalable_main_header(
   int ms_mask,
   int ms_used[MAX_SHORT_WINDOWS][SFB_NUM_MAX],
   int tns_transmitted[2],
-  TNS_INFO *tnsInfo[MAX_TIME_CHANNELS],
+  TNS_INFOO *tnsInfo[MAX_TIME_CHANNELS],
   PRED_TYPE pred_type, 
   NOK_LT_PRED_STATUS *nok_lt_statusLeft,
   NOK_LT_PRED_STATUS *nok_lt_statusRight);
@@ -158,7 +158,7 @@ int write_scalable_ext_header(
   enum DC_FLAG msFssControl[MAX_TIME_CHANNELS][SFB_NUM_MAX],
   int ms_mask,
   int ms_used[MAX_SHORT_WINDOWS][SFB_NUM_MAX],
-  TNS_INFO *tnsInfo[MAX_TIME_CHANNELS]);
+  TNS_INFOO *tnsInfo[MAX_TIME_CHANNELS]);
 
 /* corresponds to ISO/IEC 14496-3 Table 4.48 tns_data()
  * ...but this one will also write the tns_data_present bit
@@ -167,7 +167,7 @@ int write_scalable_ext_header(
 int write_tns_data(
   HANDLE_AACBITMUX   bitmux,
   int                bUsacSyntax,
-  TNS_INFO*          tnsInfoPtr,
+  TNS_INFOO*          tnsInfoPtr,
   WINDOW_SEQUENCE    windowSequence,
   HANDLE_BSBITSTREAM stream);
 

@@ -79,7 +79,7 @@ int EncTf_aacscal_encode(
   int         blockSizeSamples,
   int         nr_of_chan[MAX_TF_LAYER],
   long        samplRate,
-  TNS_INFO    *tnsInfo[MAX_TIME_CHANNELS],
+  TNS_INFOO    *tnsInfo[MAX_TIME_CHANNELS],
   NOK_LT_PRED_STATUS* nok_lt_status,
   PRED_TYPE   pred_type,
   int         num_window_groups,

@@ -89,7 +89,7 @@ int EncTf_aacplain_encode(
   int         nr_of_chan,
   long        samplRate,
   MSInfo      *msInfo,
-  TNS_INFO    *tnsInfo[MAX_TIME_CHANNELS],
+  TNS_INFOO    *tnsInfo[MAX_TIME_CHANNELS],
   NOK_LT_PRED_STATUS nok_lt_status[MAX_TIME_CHANNELS],
   PRED_TYPE   pred_type,
   int         pns_sfb_start,

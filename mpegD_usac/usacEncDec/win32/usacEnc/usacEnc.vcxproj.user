@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>usacEnc -if input.wav -of encoded.mp4 -br 64000 -sbrRatioIndex 2 -nodrc</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>usacEnc -if F:\USAC\Test_sequence\music_2.wav -of encoded.mp4 -br 16000 -sbrRatioIndex 3 -usac_fd 1 </LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>.\bin\x64_Debug</LocalDebuggerWorkingDirectory>
   </PropertyGroup>

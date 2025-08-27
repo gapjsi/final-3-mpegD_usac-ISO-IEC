@@ -107,6 +107,7 @@ amm-info@iis.fraunhofer.de
 
 #include "psy_const.h"
 
+//#include "TNS_IFO.h"
 #ifndef PI
 #define PI 3.1415926535897931f
 #endif
@@ -190,7 +191,7 @@ typedef struct {
   INT tnsMaxScaleSpec;
   INT filtersMerged;
 } TNS_DATA;
-#ifndef _TNS_H_INCLUDED
+
 typedef struct {
   INT numOfFilters[TRANS_FAC];
   INT coefRes[TRANS_FAC];
@@ -205,7 +206,7 @@ typedef struct {
    * channel)! Memory could be saved here! */
   INT coef[TRANS_FAC][MAX_NUM_OF_FILTERS][TNS_MAX_ORDER];
 } TNS_INFO;
-#endif
+
 INT FDKaacEnc_FreqToBandWidthRounding(const INT freq, const INT fs,
                                       const INT numOfBands,
                                       const INT *bandStartOffset);

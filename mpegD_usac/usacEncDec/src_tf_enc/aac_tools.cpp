@@ -51,7 +51,7 @@ static void fill_nonscalable_extradata(
   GC_DATA_SWITCH gc_switch,
   int max_band,
   GAINC **gainInfo,
-  TNS_INFO *tnsInfo)
+  TNS_INFOO *tnsInfo)
 {
   if (info == NULL) return;
   info->pulse_data_present = 0;
@@ -183,7 +183,7 @@ int EncTf_aacplain_encode(
   int         nr_of_chan,
   long        samplRate,
   MSInfo      *msInfo,
-  TNS_INFO    *tnsInfo[MAX_TIME_CHANNELS],
+  TNS_INFOO    *tnsInfo[MAX_TIME_CHANNELS],
   NOK_LT_PRED_STATUS nok_lt_status[MAX_TIME_CHANNELS],
   PRED_TYPE   pred_type,
   int         pns_sfb_start,

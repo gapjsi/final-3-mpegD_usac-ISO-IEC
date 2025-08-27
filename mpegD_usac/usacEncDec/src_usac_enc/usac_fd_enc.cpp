@@ -54,7 +54,7 @@ extern "C" {
 #include "cplx_pred.h"
 }
 static void fill_toolsdata(UsacToolsInfo *info,
-                           TNS_INFO *tnsInfo)
+                           TNS_INFOO *tnsInfo)
 {
   if (info == NULL) return;
    info->noiseFilling = 0;
@@ -95,7 +95,7 @@ static int calc_fd_static_bits(int 				common_window,
                                int             	num_window_groups,
                                int             	window_group_length[],
                                UsacToolsInfo  	*tools_info,
-                               TNS_INFO       	*tns_info) {
+                               TNS_INFOO       	*tns_info) {
 
   int bits_count = 0;
 
@@ -216,7 +216,7 @@ int usac_fd_encode(
 		   long        samplRate,
 		   MSInfo      *msInfo,
            int         predCoef[MAX_SHORT_WINDOWS][SFB_NUM_MAX],
-		   TNS_INFO    *tnsInfo[MAX_TIME_CHANNELS],
+		   TNS_INFOO    *tnsInfo[MAX_TIME_CHANNELS],
 		   UsacICSinfo ics_info[MAX_TIME_CHANNELS],
 		   UsacToolsInfo tool_info[MAX_TIME_CHANNELS],
 		   UsacQuantInfo qInfo[MAX_TIME_CHANNELS],

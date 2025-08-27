@@ -226,7 +226,7 @@ struct tagEncoderSpecificData {
    int sbrenable;
 /* ---- DATA ---- */
   ntt_DATA nttData;
-  TNS_INFO *tnsInfo[MAX_TIME_CHANNELS];
+  TNS_INFOO *tnsInfo[MAX_TIME_CHANNELS];
 
   NOK_LT_PRED_STATUS nok_lt_status[MAX_TIME_CHANNELS];
   double *LTP_overlap_buffer[MAX_TIME_CHANNELS];
@@ -449,7 +449,7 @@ static int EncTf_tns_init(struct tagEncoderSpecificData *data, TNS_COMPLEXITY tn
     if (tns_used == NO_TNS) {
       data->tnsInfo[i_ch] = NULL;
     } else {
-      data->tnsInfo[i_ch] = (TNS_INFO*)calloc(1, sizeof(TNS_INFO));
+      data->tnsInfo[i_ch] = (TNS_INFOO*)calloc(1, sizeof(TNS_INFOO));
       if ( TnsInit(data->sampling_rate, data->tns_select, data->tnsInfo[i_ch]) )
         return -1;
     }

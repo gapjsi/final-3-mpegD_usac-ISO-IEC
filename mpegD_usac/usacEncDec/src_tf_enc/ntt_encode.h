@@ -595,7 +595,7 @@ int  EncTf_tvq_encode(
   int         nr_of_sfb[MAX_TIME_CHANNELS],
   int         *max_sfb,
   MSInfo      *msInfo,
-  TNS_INFO    *tvqTnsInfo[MAX_TIME_CHANNELS],
+  TNS_INFOO    *tvqTnsInfo[MAX_TIME_CHANNELS],
   PRED_TYPE   pred_type,
   NOK_LT_PRED_STATUS nok_lt_status[MAX_TIME_CHANNELS],
   int         debug_level

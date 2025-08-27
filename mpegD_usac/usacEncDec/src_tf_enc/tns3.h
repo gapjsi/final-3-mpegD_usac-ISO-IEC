@@ -42,7 +42,7 @@ Copyright (c) 1997.
 
 #include "interface.h"
 #include "tf_mainHandle.h"
- 
+//#include "C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\fdk_psy\TNS_IFO.h" 
 /*************************/
 /* #defines              */
 /*************************/
@@ -76,7 +76,9 @@ typedef struct {
   TNS_FILTER_DATA tnsFilter[3];	                /* TNS filters */
 } TNS_WINDOW_DATA;
 
-#ifndef AACENC_TNS_H
+
+
+
 typedef struct {
   int tnsDataPresent;
   int tnsMinBandNumberLong;
@@ -86,8 +88,9 @@ typedef struct {
   int tnsMaxOrderLong;
   int tnsMaxOrderShort;
   TNS_WINDOW_DATA windowData[NSHORT];	/* TNS data per window */
-} TNS_INFO;
-#endif
+} TNS_INFOO;
+
+
 
 
 /*************************/
@@ -111,10 +114,10 @@ void QuantizeReflectionCoeffs(int fOrder,int coeffRes,double* rArray,int* indexA
 int TruncateCoeffs(int fOrder,double threshold,double* kArray);
 void TnsFilter(int length,double* spec,TNS_FILTER_DATA* filter);
 void TnsInvFilter(int length,double* spec,TNS_FILTER_DATA* filter);
-int TnsInit(long samplingRate,TNS_COMPLEXITY profile,TNS_INFO* tnsInfo); 
-void TnsEncode(int numberOfBands,int maxSfb,WINDOW_SEQUENCE blockType,int* sfbOffsetTable,double* spec,TNS_INFO* tnsInfo);
-void TnsEncode2(int numberOfBands,int maxSfb,WINDOW_SEQUENCE blockType,int* sfbOffsetTable,double* spec,TNS_INFO* tnsInfo, int decodeFlag);
-void TnsEncodeShortBlock(int numberOfBands, int maxSfb, int which_subblock, int* sfbOffsetTable, double* spec, TNS_INFO* tnsInfo);
+int TnsInit(long samplingRate,TNS_COMPLEXITY profile, TNS_INFOO* tnsInfo);
+void TnsEncode(int numberOfBands,int maxSfb,WINDOW_SEQUENCE blockType,int* sfbOffsetTable,double* spec, TNS_INFOO* tnsInfo);
+void TnsEncode2(int numberOfBands,int maxSfb,WINDOW_SEQUENCE blockType,int* sfbOffsetTable,double* spec, TNS_INFOO* tnsInfo, int decodeFlag);
+void TnsEncodeShortBlock(int numberOfBands, int maxSfb, int which_subblock, int* sfbOffsetTable, double* spec, TNS_INFOO* tnsInfo);
 
 #endif
 

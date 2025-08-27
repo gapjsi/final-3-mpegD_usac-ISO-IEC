@@ -281,7 +281,7 @@ void ntt_headerenc(int iscl,
 		   ntt_INDEX* index, 
 		   WINDOW_SHAPE windowShape,
 		   int *used_bits,
-		   TNS_INFO *tnsInfo[MAX_TIME_CHANNELS],
+		   TNS_INFOO *tnsInfo[MAX_TIME_CHANNELS],
 		   NOK_LT_PRED_STATUS *nok_lt_status,
 		   PRED_TYPE pred_type,
 		   int debugLevel)
@@ -410,7 +410,7 @@ void ntt_tns_enc(double *spectral_line_vector[MAX_TIME_CHANNELS],
 	         int     sfb_width_table[MAX_TIME_CHANNELS][MAX_SCFAC_BANDS],
 	         WINDOW_SEQUENCE   windowSequence,
 		 int         nr_of_sfb[MAX_TIME_CHANNELS],
-		 TNS_INFO	 *tnsInfo[MAX_TIME_CHANNELS]
+		 TNS_INFOO	 *tnsInfo[MAX_TIME_CHANNELS]
 		)
 {
 
@@ -454,7 +454,7 @@ int  EncTf_tvq_encode(
   int         nr_of_sfb[MAX_TIME_CHANNELS],
   int         *max_sfb,
   MSInfo      *msInfo,
-  TNS_INFO    *tnsInfo[MAX_TIME_CHANNELS],
+  TNS_INFOO    *tnsInfo[MAX_TIME_CHANNELS],
   PRED_TYPE   pred_type,
   NOK_LT_PRED_STATUS nok_lt_status[MAX_TIME_CHANNELS],
   int         debugLevel)

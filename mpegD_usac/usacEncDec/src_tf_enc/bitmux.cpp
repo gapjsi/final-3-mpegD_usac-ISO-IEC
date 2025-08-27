@@ -798,7 +798,7 @@ int write_scalable_main_header (
 	int ms_mask,
 	int ms_used[MAX_SHORT_WINDOWS][SFB_NUM_MAX],
 	int tns_transmitted[2],
-	TNS_INFO *tnsInfo[MAX_TIME_CHANNELS],
+	TNS_INFOO *tnsInfo[MAX_TIME_CHANNELS],
 	PRED_TYPE pred_type, 
 	NOK_LT_PRED_STATUS *nok_lt_statusLeft,
 	NOK_LT_PRED_STATUS *nok_lt_statusRight)
@@ -902,7 +902,7 @@ int write_scalable_ext_header(
 	enum DC_FLAG msFssControl[MAX_TIME_CHANNELS][SFB_NUM_MAX],
 	int ms_mask,
 	int ms_used[MAX_SHORT_WINDOWS][SFB_NUM_MAX],
-	TNS_INFO *tnsInfo[MAX_TIME_CHANNELS])
+	TNS_INFOO *tnsInfo[MAX_TIME_CHANNELS])
 {
   int write_flag = (bitmux!=NULL);
   int used_bits = 0;
@@ -964,7 +964,7 @@ int write_scalable_ext_header(
  */
 int write_tns_data(HANDLE_AACBITMUX   bitmux,
                    int                bUsacSyntax,
-                   TNS_INFO*          tnsInfoPtr,       /* TnsInfo structure */
+                   TNS_INFOO*          tnsInfoPtr,       /* TnsInfo structure */
                    WINDOW_SEQUENCE    windowSequence,     /* block type */
                    HANDLE_BSBITSTREAM stream)
 {

@@ -75,7 +75,7 @@ static unsigned short tnsMinBandNumberShort[12] =
 /*****************************************************/
 /* InitTns:                                          */
 /*****************************************************/
-int TnsInit(long samplingRate,TNS_COMPLEXITY profile,TNS_INFO* tnsInfo) 
+int TnsInit(long samplingRate,TNS_COMPLEXITY profile,TNS_INFOO* tnsInfo) 
 {
   int fsIndex=0;
   long samplingRateMapped = samplingRate;
@@ -137,7 +137,7 @@ void TnsEncode(int numberOfBands,       /* Number of bands per window */
 	       WINDOW_SEQUENCE blockType,   /* block type */
 	       int* sfbOffsetTable,     /* Scalefactor band offset table */
 	       double* spec,            /* Spectral data array */
-	       TNS_INFO* tnsInfo)       /* TNS info */
+	       TNS_INFOO* tnsInfo)       /* TNS info */
 {
   int numberOfWindows,windowSize;
   int startBand,stopBand,order;    /* Bands over which to apply TNS */
@@ -223,7 +223,7 @@ void TnsEncode2(int numberOfBands,       /* Number of bands per window */
                 WINDOW_SEQUENCE blockType,   /* block type */
                 int* sfbOffsetTable,     /* Scalefactor band offset table */
                 double* spec,            /* Spectral data array */
-                TNS_INFO* tnsInfo,       /* TNS info */
+                TNS_INFOO* tnsInfo,       /* TNS info */
                 int decodeFlag)          /* Analysis ot synthesis filter. */
 {
   int numberOfWindows,windowSize;
@@ -283,7 +283,7 @@ void TnsEncodeShortBlock(int numberOfBands,       /* Number of bands per window 
 			 int which_subblock,      /* block number */
 			 int* sfbOffsetTable,     /* Scalefactor band offset table */
 			 double* spec,            /* Spectral data array */
-			 TNS_INFO* tnsInfo)       /* TNS info */
+			 TNS_INFOO* tnsInfo)       /* TNS info */
 {
   int windowSize;
   int startBand,stopBand;    /* Bands over which to apply TNS */

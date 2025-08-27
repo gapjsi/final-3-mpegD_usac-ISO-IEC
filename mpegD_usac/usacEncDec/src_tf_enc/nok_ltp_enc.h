@@ -42,7 +42,7 @@ nok_ltp_enc(double *p_spectrum, double *p_time_signal,
 	    WINDOW_SHAPE win_shape_prev, int block_size_long, 
 	    int block_size_short, int *sfb_offset, 
 	    int num_of_sfb, NOK_LT_PRED_STATUS *lt_status, 
-	    TNS_INFO *tnsInfo, QC_MOD_SELECT qc_select);
+	    TNS_INFOO *tnsInfo, QC_MOD_SELECT qc_select);
 
 extern void 
 nok_ltp_reconstruct(double *p_spectrum, WINDOW_SEQUENCE win_type, 
