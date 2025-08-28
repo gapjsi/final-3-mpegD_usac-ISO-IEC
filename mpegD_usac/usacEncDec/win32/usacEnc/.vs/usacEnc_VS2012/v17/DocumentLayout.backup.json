@@ -3,31 +3,25 @@
   "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\usacEnc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{768E7415-388D-41BB-A98A-937F74D17524}|usacEnc.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_frame_enc\\usacEnc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}|..\\fdk_psy\\fdk_psy.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\common_fix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}|..\\fdk_psy\\fdk_psy.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\fixpoint_math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}|..\\fdk_psy\\fdk_psy.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\psy_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}|..\\fdk_psy\\fdk_psy.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\psy_const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCABA09-C862-400D-8896-EB1264AE6728}|obj_usac_enc\\obj_usac_enc.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_usac_enc\\enc_usac.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}|..\\fdk_psy\\fdk_psy.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\aacenc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}|..\\fdk_psy\\fdk_psy.vcxproj|C:\\USERS\\LENOVO\\DESKTOP\\FINAL-3-MPEGD_USAC-ISO-IEC\\FINAL-MPEGD_USAC-ISO-IEC\\MPEGD_USAC\\USACENCDEC\\WIN32\\FDK_PSY\\FDK_AUDIO.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{768E7415-388D-41BB-A98A-937F74D17524}|usacEnc.vcxproj|C:\\USERS\\LENOVO\\DESKTOP\\FINAL-3-MPEGD_USAC-ISO-IEC\\FINAL-MPEGD_USAC-ISO-IEC\\MPEGD_USAC\\USACENCDEC\\SRC_FRAME_ENC\\ENCODER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}|..\\fdk_psy\\fdk_psy.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\fixpoint_math_x86.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}|..\\fdk_psy\\fdk_psy.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\maro.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_tf\\all.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2F87A73-0D6B-4EB2-B4D0-5939475F6161}|..\\fdk_psy\\fdk_psy.vcxproj|C:\\USERS\\LENOVO\\DESKTOP\\FINAL-3-MPEGD_USAC-ISO-IEC\\FINAL-MPEGD_USAC-ISO-IEC\\MPEGD_USAC\\USACENCDEC\\WIN32\\FDK_PSY\\AACENC.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2DCABA09-C862-400D-8896-EB1264AE6728}|obj_usac_enc\\obj_usac_enc.vcxproj|C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_usac_enc\\enc_usac.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +31,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,103 +48,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "psy_const.h",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\psy_const.h",
-              "RelativeDocumentMoniker": "..\\fdk_psy\\psy_const.h",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\psy_const.h",
-              "RelativeToolTip": "..\\fdk_psy\\psy_const.h",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAvwHoAAAAOAAAAAAAAAA==",
+              "Title": "common_fix.h",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\common_fix.h",
+              "RelativeDocumentMoniker": "..\\fdk_psy\\common_fix.h",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\common_fix.h",
+              "RelativeToolTip": "..\\fdk_psy\\common_fix.h",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAswO8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-27T01:44:38.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "all.h",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_tf\\all.h",
-              "RelativeDocumentMoniker": "..\\..\\src_tf\\all.h",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_tf\\all.h",
-              "RelativeToolTip": "..\\..\\src_tf\\all.h",
-              "ViewState": "AgIAAN8AAAAAAAAAAAASwPAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-25T13:23:40.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "fixpoint_math_x86.h",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\fixpoint_math_x86.h",
-              "RelativeDocumentMoniker": "..\\fdk_psy\\fixpoint_math_x86.h",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\fixpoint_math_x86.h",
-              "RelativeToolTip": "..\\fdk_psy\\fixpoint_math_x86.h",
-              "ViewState": "AgIAAIEAAAAAAAAAAAArwIkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-25T13:16:16.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "aacenc.cpp",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\aacenc.cpp",
-              "RelativeDocumentMoniker": "..\\fdk_psy\\aacenc.cpp",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\aacenc.cpp",
-              "RelativeToolTip": "..\\fdk_psy\\aacenc.cpp",
-              "ViewState": "AgIAAIYBAAAAAAAAAAAUwJcBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-25T12:17:54.56Z"
+              "WhenOpened": "2025-08-28T02:08:57.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "fixpoint_math.h",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\fixpoint_math.h",
+              "RelativeDocumentMoniker": "..\\fdk_psy\\fixpoint_math.h",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\fixpoint_math.h",
+              "RelativeToolTip": "..\\fdk_psy\\fixpoint_math.h",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAswBIBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-28T02:07:04.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "maro.h",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\maro.h",
+              "RelativeDocumentMoniker": "..\\fdk_psy\\maro.h",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\maro.h",
+              "RelativeToolTip": "..\\fdk_psy\\maro.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-28T01:50:12.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "enc_usac.cpp",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_usac_enc\\enc_usac.cpp",
               "RelativeDocumentMoniker": "..\\..\\src_usac_enc\\enc_usac.cpp",
               "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_usac_enc\\enc_usac.cpp",
               "RelativeToolTip": "..\\..\\src_usac_enc\\enc_usac.cpp",
-              "ViewState": "AgIAABYJAAAAAAAAAAAAADgJAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPcIAAAAAAAAAADwv0kJAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-25T07:33:53.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "aacenc.h",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\aacenc.h",
-              "RelativeDocumentMoniker": "..\\fdk_psy\\aacenc.h",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\aacenc.h",
-              "RelativeToolTip": "..\\fdk_psy\\aacenc.h",
-              "ViewState": "AgIAAOsAAAAAAAAAAAAWwAkBAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-25T12:32:57.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FDK_audio.h",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\FDK_audio.h",
-              "RelativeDocumentMoniker": "..\\fdk_psy\\FDK_audio.h",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\FDK_audio.h",
-              "RelativeToolTip": "..\\fdk_psy\\FDK_audio.h",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAkwNsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-25T09:23:27.539Z"
+              "WhenOpened": "2025-08-25T07:33:53.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "usacEnc.cpp",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_frame_enc\\usacEnc.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src_frame_enc\\usacEnc.cpp",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_frame_enc\\usacEnc.cpp*",
+              "RelativeToolTip": "..\\..\\src_frame_enc\\usacEnc.cpp*",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAJ4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-28T01:43:44.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "psy_main.cpp",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\psy_main.cpp",
               "RelativeDocumentMoniker": "..\\fdk_psy\\psy_main.cpp",
               "ToolTip": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\win32\\fdk_psy\\psy_main.cpp",
               "RelativeToolTip": "..\\fdk_psy\\psy_main.cpp",
-              "ViewState": "AgIAAM4BAAAAAAAAAAAvwOUBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANsBAAAAAAAAAAAAANsBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-25T07:34:00.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "encoder.h",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\final-3-mpegD_usac-ISO-IEC\\final-mpegD_usac-ISO-IEC\\mpegD_usac\\usacEncDec\\src_frame_enc\\encoder.h",
               "RelativeDocumentMoniker": "..\\..\\src_frame_enc\\encoder.h",
@@ -158,7 +133,8 @@
               "RelativeToolTip": "..\\..\\src_frame_enc\\encoder.h",
               "ViewState": "AgIAAG4AAAAAAAAAAAAWwDUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-25T07:33:45.854Z"
+              "WhenOpened": "2025-08-25T07:33:45.854Z",
+              "EditorCaption": ""
             }
           ]
         }

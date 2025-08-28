@@ -1,1 +1,6 @@
-﻿
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  usacEnc.cpp
+  usac_bitmux.cpp
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_frame_enc\usacEnc.cpp(1158,16): warning C4101: “i_enc”: 未引用的局部变量
+  正在生成代码...
+  usacEnc.vcxproj -> C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\usacEnc\bin\x64_Debug\usacEnc.exe

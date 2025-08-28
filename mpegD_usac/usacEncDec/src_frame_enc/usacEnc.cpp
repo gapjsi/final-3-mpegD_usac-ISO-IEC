@@ -156,7 +156,7 @@ extern "C" {
 
 }
 /* ---------- declarations ---------- */
-
+//#include "maro.h"
 
 
 #define PROGVER "MPEG-4 Natural Audio Encoder (Edition 2001)   2003-08-27"

@@ -6,4 +6,5 @@
 #define fdk_ignore_aacenc 1
 #define fdk_ignore_aacenc_tns 1
 #define fdk_ignore_qc_main 1
+#define origin_psy 1
 /*#################################################*/

@@ -1,1 +1,13 @@
-﻿
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  enc_usac.cpp
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\fdk_psy\aacenc_tns.h(127,9): warning C4005: “TNS_MAX_ORDER”: 宏重定义
+  (编译源文件“../../../src_usac_enc/enc_usac.cpp”)
+      C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_tf\tns.h(31,9):
+      参见“TNS_MAX_ORDER”的前一个定义
+  
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_usac_enc\enc_usac.cpp(367,17): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_usac_enc\enc_usac.cpp(388,7): warning C4101: “val”: 未引用的局部变量
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_usac_enc\enc_usac.cpp(2365,65): warning C4311: “类型强制转换”: 从“WINDOW_SHAPE *”到“INT”的指针截断
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_usac_enc\enc_usac.cpp(2365,65): warning C4302: “类型强制转换”: 从“WINDOW_SHAPE *”到“INT”截断
+C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\src_usac_enc\enc_usac.cpp(2328,11): warning C4101: “n”: 未引用的局部变量
+  obj_usac_enc.vcxproj -> C:\Users\lenovo\Desktop\final-3-mpegD_usac-ISO-IEC\final-mpegD_usac-ISO-IEC\mpegD_usac\usacEncDec\win32\usacEnc\lib\x64_Debug\obj_usac_enc.lib

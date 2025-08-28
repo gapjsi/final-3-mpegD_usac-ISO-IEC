@@ -2323,6 +2323,7 @@ int EncUsacFrame(const ENCODER_DATA_TYPE  input,
       initFlags);
   ErrorStatus = FDKaacEnc_QCOutInit(hAacEnc->qcOut, hAacEnc->maxFrames, cm);
 
+
   /*psymain*/
   int el, n, c = 0;
   INT inputBufferBufSize = 3685;
@@ -2357,18 +2358,71 @@ int EncUsacFrame(const ENCODER_DATA_TYPE  input,
               psyOutChan->sfbMinSnrLdData = qcOutChan->sfbMinSnrLdData;
               psyOutChan->sfbThresholdLdData = qcOutChan->sfbThresholdLdData;
           }
-
+          /*input match*/
+          PSY_OUT_ELEMENT* psyOutElement = psyOut->psyOutElement[0];
+          PSY_ELEMENT* psyElement = hAacEnc->psyKernel->psyElement[el];
+          PSY_DYNAMIC* psyDynamic = hAacEnc->psyKernel->psyDynamic;
+          psyOutElement->psyOutChannel[0]->lastWindowSequence = (INT)(data->windowShapePrev);
+          hAacEnc->bandwidth90dB = data->bw_limit;
+          /*output match*/
           ErrorStatus = FDKaacEnc_psyMain(
               elInfo.nChannelsInEl, hAacEnc->psyKernel->psyElement[el],
               hAacEnc->psyKernel->psyDynamic, hAacEnc->psyKernel->psyConf,
               psyOut->psyOutElement[el], inputBuffer, inputBufferBufSize,
               cm->elInfo[el].ChannelIndex, cm->nChannels);
-
-          
+          /*input match*/
+          windowSequence[0] = (WINDOW_SEQUENCE)(psyOutElement->psyOutChannel[0]->lastWindowSequence);
+          windowShape[0] = (WINDOW_SHAPE)(psyOutElement->psyOutChannel[0]->windowShape);
+          data->spectral_line_vector[0] = (double *)psyOutElement->psyOutChannel[0]->mdctSpectrum;
+          nr_of_sfb[0] = psyOutElement->psyOutChannel[0]->sfbCnt;
+          for (i = 0; i < 52; i++) { 
+              sfb_offset[0][i] = psyOutElement->psyOutChannel[0]->sfbOffsets[i];
+          }
+          for (i = 0; i < nr_of_sfb[0]; i++) { 
+              sfb_width_table[0][i] = sfb_offset[0][i + 1] - sfb_offset[0][i]; 
+          }
+          num_window_groups[0] = psyElement->psyStatic[0]->blockSwitchingControl.noOfGroups;
+          for (i = 0; i < num_window_groups[0]; i++) {
+              window_group_length[0][i] = psyElement->psyStatic[0]->blockSwitchingControl.groupLen[i];
+          }
+          max_sfb[0] = psyOutElement->psyOutChannel[0]->maxSfbPerGroup;
+          data->max_sfb = nr_of_sfb[0];
+          for (i = 0; i < nr_of_sfb[0]; i++) {
+              p_energy[0][i] = psyOutElement->psyOutChannel[0]->sfbEnergy[i];
+          }
+          for (i = 0; i < nr_of_sfb[0]; i++) {
+              if (windowSequence[0] != EIGHT_SHORT_SEQUENCE) {
+                  p_energy[0][i] = psyDynamic->psyData->sfbThreshold.Long[i];
+              }
+              else {
+                  p_energy[0][i] = 0;
+              }   
+          }
+          if (windowSequence[0] == EIGHT_SHORT_SEQUENCE) {
+              for (int m = 0; m < 8; m++) {
+                  for (int n = 0; n < 15; n++) {
+                      i = 15 * m + n;
+                      p_energy[0][i] = psyDynamic->psyData->sfbThreshold.Short[m][n];
+                  }
+              }
+          }
+#if !origin_psy
+          used_bits += 1; /* usac independency flag */
+          used_bits += sbr_bits;
+          if (data->usac212enable) {
+              used_bits += data->SpatialDataLength;
+          }
+#endif
+          data->window_size_samples[0] = data->block_size_samples;
+          /*output match*/
       }
   }
+
+/*output interface*/
+  
 #endif
 
+#if origin_psy
   for ( i_ch = 0 ; i_ch < data->channels ; i_ch++ ) {
     data->window_size_samples[i_ch]=data->block_size_samples;
     windowSequence[i_ch] =  data->windowSequence[i_ch];
@@ -2434,7 +2488,7 @@ int EncUsacFrame(const ENCODER_DATA_TYPE  input,
   if(data->usac212enable){
     used_bits += data->SpatialDataLength;
   }
-
+#endif
   for ( i_ch = 0 ; i_ch < data->channels ; i_ch++ ) {
     /***********************************************************************/
     /* Core-coding                                                         */
@@ -2500,6 +2554,7 @@ int EncUsacFrame(const ENCODER_DATA_TYPE  input,
      }
     }
     else{
+#if origin_psy
       float sample_pos[MAX_TIME_CHANNELS][1024*3];
       float tw_trans_len[MAX_TIME_CHANNELS][2];
       int   tw_start_stop[MAX_TIME_CHANNELS][2];
@@ -2690,6 +2745,7 @@ int EncUsacFrame(const ENCODER_DATA_TYPE  input,
           }
         }
       }
+#endif
     }
   } /* end of first channel loop */
 
